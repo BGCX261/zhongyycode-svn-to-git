@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gallery>
+
+<options>
+    <backgroundColor>000000</backgroundColor>
+    <imageWidth>900</imageWidth>
+    <imageHeight>500</imageHeight>
+    <imageSpaceX>1000</imageSpaceX>
+    <imageSpaceY>800</imageSpaceY>
+    <imageBorderColor>FFFFFF</imageBorderColor>
+    <imageBorder>20</imageBorder>
+
+    <imageSmoothing>no</imageSmoothing>
+    <explanation>yes</explanation>
+    <name>wal8</name>
+</options>
+
+<pictures>
+    <album name = "wal8">
+        <pic>
+        <bigimage>/scripts/pic_view/images/pic6.jpg</bigimage>
+        <info title="" desc=""link="http://www.wal8.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic32.jpg</bigimage>
+        </pic>
+    </album>
+</pictures>
+</gallery>

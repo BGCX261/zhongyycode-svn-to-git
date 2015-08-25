@@ -1,0 +1,64 @@
+/**
+ * 购物车页样式
+ *
+ * @author     Akon(番茄红了) <aultoale@gmail.com>
+ * @copyright  Copyright (c) 2008-2009 (http://www.imeelee.com/)
+ */
+
+#mainbody .top {border-bottom:1px solid #CA1655; padding-bottom:3px; height:32px; margin:15px 0;}
+#mainbody .items a.img {display:block; width:80px; height:80px; padding:1px; border:1px solid #DBDBDB; overflow:hidden;}
+
+/**
+ * 购物车商品列表
+ */
+#goods-list {}
+#goods-list .top {background:url(/v3/images/bg_cart_top.jpg) 5px 0 no-repeat;}
+#goods-list .main {margin-bottom:10px;}
+#goods-list .items {border:1px solid #F5D7E1;}
+#goods-list .items th {color:#333; background:url(/v3/images/bg_cart_table_th.gif) repeat-x;}
+#goods-list .items td {border-top:1px solid #F5D7E1;}
+#goods-list .items p.brand, #goods-list .items p.brand a {color:#999;}
+#goods-list .items .unit {color:#666;}
+#goods-list .items input.qty {width:30px; text-align:center;}
+#goods-list .items .subtotal {color:#F50;}
+#goods-list .items .tips {padding-left:50px; background:url(/v3/images/icon_info_2.gif) 14px 10px no-repeat; height:45px; line-height:45px;}
+#goods-list .items .tips font {font-weight:bold;}
+#goods-list .items .total {margin-right:10px; color:#666;}
+#goods-list .items .total em {font-style:normal; font-size:14px; color:#F50; font-weight:bold;}
+#goods-list .action {margin-top:10px;}
+
+
+/**
+ * 赠品区
+ */
+#gift-list {background:url(/v3/images/bg_gift_top.jpg) 5px 0 no-repeat;}
+#gift-list .items {border:1px solid #FFF; width:290px; padding:0 6px 0 10px; margin:5px 3px 5px 4px; float:left; color:#666;}
+#gift-list .items a.img {filter:gray; /* ie only */ opacity:0.8;/* not ie */}
+#gift-list .items a {color:#666;}
+#gift-list .items p {margin-left:5px;}
+#gift-list .items p.cond font {color:#666; font-weight:bold;}
+#gift-list .items p.add {padding-left:20px; background:url(/v3/images/icon/add.gif) no-repeat; height:18px; line-height:18px; filter:gray; opacity:0.8;}
+#gift-list .hover {border:1px solid #FCA;}
+#gift-list .select {border:2px solid #F60; margin:4px 2px; background:#FFF6F9;}
+#gift-list .select a.img, #gift-list .hover a.img, #gift-list .hover p.add {filter:none; opacity:10;}
+#gift-list .hover p.cond font, #gift-list .select p.cond font {color:#F60;}
+#gift-list .hover a, #gift-list .select a {color:#04c;}
+
+/**
+ * 特价热卖
+ */
+#hot-list {background:url(/v3/images/bg_hot_top.jpg) 5px 0 no-repeat; margin-bottom:15px;}
+#hot-list .top {margin-bottom:0;}
+#hot-list .jquery-tabs {margin:0 0 10px 0; padding:0; list-style:none; height:35px; line-height:35px; border-bottom:1px solid #DD6891; background:#FFF6FA;}
+#hot-list .jquery-tabs li {float:left; margin:10px 0 0 10px; height:25px; line-height:25px; padding:0 15px; cursor:pointer;}
+#hot-list .jquery-tabs li.current {border:1px solid #DD6891; border-bottom:none; background:#FFF;}
+#hot-list .jquery-tabs li a {color:#999;}
+#hot-list .jquery-tabs li a:hover {text-decoration:none;}
+#hot-list .jquery-tabs li.current a {color:#C8255C;}
+#hot-list .items {width:300px; float:left; margin:10px 8px 10px 6px;}
+#hot-list .items p.name {margin:0 0 5px 5px; height:20px; line-height:20px; overflow:hidden;}
+#hot-list .items p.m-price {color:#999; margin:5px 0 4px 5px;}
+#hot-list .items p.s-price {color:#FF2E8A; margin:4px 0 5px 5px;}
+#hot-list .items p.s-price em {font-style:normal; background:#B8255C; padding:0 3px; color:#FFF;}
+#hot-list .items p.buy {margin:8px 0 5px 5px;}
+#hot-list .tabs-div {display:none;}

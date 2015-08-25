@@ -1,0 +1,213 @@
+body, h1, h2, h3, li, p, ul, sup, sub, textarea, select { line-height:1.5em; padding:0; margin:0; font-size:12px; color:#3D3E3E; list-style:none; font-family:Arial, Tahoma, Verdana; }
+ input{margin:0; padding:0; font:12px Arial, Tahoma, Verdana; color:#000;}
+a { color:#3D3E3E; text-decoration:none; }
+a:hover { text-decoration:underline; color:#FE8B20; }
+.share_album a:hover, .user_info a:hover, .photo_lists .bd a:hover, #foot a:hover { text-decoration:none; background:#039; color:#fff;}
+img{border:0;}
+.share_album a:active, .user_info a:active, .photo_lists .bd a:active, #foot a:active { background:#f93; }
+botton{border:none;}
+#header { width:950px; margin:0 auto; }
+    #header .hd { overflow:hidden;padding-top:5px; }
+        #header .nav { float:right; overflow:hidden; }
+            #header .nav li { float:left; padding:0 ; }
+            #header .nav li a{padding: 0 5px;}
+            #header .nav .ft { border:none; }
+    #header .bd { overflow:hidden; margin-top:10px; padding:0 10px; }
+        #header h1 { width:225px; height:80px; text-indent:-8888px; background:url(/images/album/public/logo.png) no-repeat; float:left; }
+            #header h1 a { display:block; width:225px; height:80px; }
+        #header .banner { float:right; padding-right:20px; }
+
+#nav { width:950px; margin:0 auto 10px; background:url(/images/album/public/nav-bg.png) left top no-repeat; overflow:hidden; }
+    #nav .nav_lists { height:34px; margin-top:12px; border-top:2px solid #ddd; padding:0 75px; position:relative; }
+        #nav .nav_lists ul { position:absolute; top:-2px; }
+        #nav .nav_lists li { float:left; text-indent:-8888px; }
+            #nav .nav_lists a { display:block; width:110px; height:34px; }
+            #nav .nav_lists .default { border-top:2px solid #ddd; background:url(/images/album/public/nav-button-default.png) no-repeat; }
+            #nav .nav_lists .default:hover { margin-top:-2px; border-top:2px solid #fff; background:url(/images/album/public/nav-button-default1.png) no-repeat; }
+            #nav .nav_lists .default_s { background:url(/images/album/public/nav-button-default1.png) no-repeat; }
+            #nav .nav_lists .user_center { border-top:2px solid #ddd; background:url(/images/album/public/nav-button-user_center.png) no-repeat; }
+
+            #nav .nav_lists .user_center:hover { margin-top:-2px; border-top:2px solid #fff; background:url(/images/album/public/nav-button-user_center1.png) no-repeat; }
+            #nav .nav_lists .user_center_s { background:url(/images/album/public/nav-button-user_center1.png) no-repeat; }
+
+#nav .nav_lists .nav_book_current {  background:url(/images/album/public/nav_book.jpg) no-repeat; }
+#nav .nav_lists .nav_book { border-top:2px solid #ddd; background:url(/images/album/public/nav_book_2.jpg) no-repeat; }
+#nav .nav_lists .nav_book:hover { margin-top:-2px; border-top:2px solid #fff; background:url(/images/album/public/nav_book.jpg) no-repeat; }
+#nav .nav_lists .nav_public { border-top:2px solid #ddd; background:url(/images/album/public/public_area_2.jpg) no-repeat; }
+#nav .nav_lists .nav_public:hover { margin-top:-2px; border-top:2px solid #fff; background:url(/images/album/public/public_area.png) no-repeat; }
+#nav .nav_lists .nav_public_s { background:url(/images/album/public/public_area.png) no-repeat; }
+#body { width:960px; margin:0px auto 0; overflow:hidden; }
+
+#foot { width:950px; margin:15px auto 0; overflow:hidden; }
+    #foot .bg { background:url(/images/album/public/foot_bg.png) no-repeat; height:43px; }
+    #foot .copyright { padding:15px 10px; border-top:1px solid #CFCFCF; margin-top:20px; }
+        #foot .related { width:360px; float:left; }
+            #foot .auto { overflow:hidden; margin:5px 0; }
+                #foot .auto li { float:left; padding:0 5px; border-right:1px solid #B5B5B5; }
+                #foot .auto .hd { padding-left:0; }
+                #foot .auto .ft { border:none; }
+        #foot .logo { float:right; }
+            #foot .logo h2 { width:200px; height:45px; text-indent:-88888px; background:url(/images/album/public/foot_logo.png) no-repeat; }
+
+.mod_user_info { height:130px; }
+    .mod_user_info .hd { width:320px; height:14px; background:url(/images/album/bg/side_hd.png) no-repeat; font-size:0; }
+    .mod_user_info .bd { width:320px; height:98px; background:url(/images/album/bg/side_bd.png); }
+        .mod_user_info .avatar { padding:0 10px; float:left; }
+        .mod_user_info .info { width:182px; padding:0 15px 0 9px; border-left:1px dashed #D8D9D4; float:left; }
+        .mod_user_info .icon { width:13px; height:12px; background:url(/images/album/img/icon.png) -43px 0 no-repeat; display:inline-block; }
+        .mod_user_info .name { color:#4FAF03; font-size:14px; font-weight:bold; }
+            .mod_user_info p { height:40px; line-height:1.5em; padding:10px 0; clear:both; }
+            .mod_user_info .friend { float:left; color:#FD8922; }
+            .mod_user_info .message { float:right; color:#FD8922; }
+    .mod_user_info .ft { width:320px; height:18px; background:url(/images/album/bg/side_ft.png) no-repeat; font-size:0; }
+
+.mod_user_info_1 { width:250px; }
+    .mod_user_info_1 .hd { font-size:0; height:14px; background:url(/images/album/bg/side_hd1.png) no-repeat; }
+    .mod_user_info_1 .bd { height:110px; padding:0 10px 10px; background:url(/images/album/bg/side_bd1.png) repeat-y; }
+        .mod_user_info_1 .bd .avatar { float:left; margin-right:10px; }
+            .mod_user_info_1 .bd .pic { display:block; width:92px; height:92px; padding:5px; border:1px solid #ddd; }
+            .mod_user_info_1 .bd .pic:hover { background:#fff; border:1px solid #FF8A21; }
+                .mod_user_info_1 .bd .pic img { width:92px; height:92px; }
+            .mod_user_info_1 .bd .info .name { color:#50B004; }
+    .mod_user_info_1 .ft { font-size:0; height:14px; background:url(/images/album/bg/side_ft1.png) no-repeat; }
+
+.mod_user_login_1 { width:250px; }
+    .mod_user_login_1 .hd { font-size:0; height:14px; background:url(/images/album/bg/side_hd1.png) no-repeat; }
+    .mod_user_login_1 .bd { padding:0 10px 10px; background:url(/images/album/bg/side_bd1.png) repeat-y; }
+        .mod_user_login_1 .bd .user_name, .mod_user_login_1 .bd .password { height:28px; margin:0 auto 10px; display:block; text-align:center; }
+        .mod_user_login_1 .bd .user_name input, .mod_user_login_1 .bd .password input { padding:0 5px; width:138px; float:left; height:23px;line-height:23px; border:1px solid #C9C9C9; }
+            .mod_user_login_1 .bd .user_name span, .mod_user_login_1 .bd .password span { height:28px; margin-right:5px; padding-right:5px; border-right:4px solid #83C74E; color:#83C74E; font-size:14px; font-weight:bold; float:left; }
+                .mod_user_login_1 .bd .user_name sup, .mod_user_login_1 .bd .password sup { font-size:11px; color:#aaa; font-weight:normal; }
+        .mod_user_login_1 .bd .user_button { padding:0 20px; display:block; text-align:right; }
+            .mod_user_login_1 .bd .user_button input { color:#fff; line-height:19px; cursor:pointer; width:67px; height:19px; background:url(/images/album/img/icon.png) -300px 0 no-repeat; border:none; }
+            .mod_user_login_1 .bd .user_button input:hover { font-weight:bold; }
+    .mod_user_login_1 .ft { font-size:0; height:45px; background:url(/images/album/bg/side_ft2.png) no-repeat; }
+
+.mod_photo_lists { overflow:hidden; }
+    .mod_photo_lists .hd { height:20px; border-bottom:4px solid #83C74E; }
+        .mod_photo_lists .hd h2 { font-size:14px; font-weight:bold; color:#83C74E; float:left; }
+        .mod_photo_lists .hd .info { float:left; margin-left:25px; }
+            .mod_photo_lists .info span { padding:0 5px; }
+        .mod_photo_lists .back { float:right; overflow:hidden; }
+        .mod_photo_lists .back li { float:left; margin-left:15px; }
+        .mod_photo_lists .lists { overflow:hidden; }
+            .mod_photo_lists .lists li { *float:left; padding:15px 24px; display:inline-block; }
+                .mod_photo_lists a.photo { text-align:center; margin-bottom:8px; display:block; background:#fff; padding:5px; border:1px solid #E7E7E7; width:132px; height:132px; box-shadow:3px 3px 10px -2px #aaa; -moz-box-shadow:3px 3px 10px -2px #aaa; -webkit-box-shadow:3px 3px 10px -2px #aaa; -ms-filter:"progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=135,strength=5)"; *filter:progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=135,strength=5); }
+                .mod_photo_lists a.photo:hover { background:#fff; border:1px solid #FF8A21; }
+                .mod_photo_lists li .info { display:block; padding:0 10px; }
+                    .mod_photo_lists .lists .photo_id { color:#4FAF03; line-height:1.5em; }
+                    .mod_photo_lists .lists .photo_id:hover { color:#FE8B20; }
+                    .mod_photo_lists .lists strong { display:block; font-weight:normal; }
+    .mod_photo_lists .filp { margin:15px auto; text-align:center; }
+    .mod_photo_lists .filp a { margin:0 2px; }
+    .mod_photo_lists .filp a:hover { background:none; color:#FF8A21; }
+    .mod_photo_lists .filp .select { color:#ff8a21; font-weight:bold; }
+
+.mod_comment_content { padding:0 2px; overflow:hidden; margin:25px auto; }
+        .mod_comment_content .avatar { margin-right:15px; float:left; }
+            .mod_comment_content .pic img { width:48px; height:48px; padding:2px; border:1px solid #CBCDCC; }
+        .mod_comment_content .main { width:522px; float:left; }
+                .mod_comment_content .info strong { color:#85c64e; font-weight:normal; margin-right:8px; }
+                .mod_comment_content .info .reply { float:right; }
+            .mod_comment_content .content { margin:15px auto; }
+            .mod_comment_content .host_reply { margin:15px auto; height:auto; line-height:23px; background:#E9F5E1; color:#4FAF03; padding:0 5px; }
+            .mod_comment_content .text { display:block; padding:3px; width:98%; height:54px; margin:10px auto; border:1px solid #C6C6C6; }
+            .mod_comment_content .button { width:37px; height:18px; line-height:18px; background:url(/images/album/img/icon.png) -405px 0 no-repeat; border:none; cursor:pointer; color:#666; }
+
+.mod_fat_comments { }
+    .mod_fat_comments .comment { float:left; width:69px; font-size:14px; font-weight:bold; color:#50B006; }
+        .mod_fat_comments .content textarea { width:518px; height:88px; border:1px solid #C6C6C6; }
+            .mod_fat_comments .code_login { margin:5px 0 0 69px;  }
+                .mod_fat_comments .code_login .code_text { float:left; margin-right:10px; width:98px; height:21px; border:1px solid #c6c6c6; }
+                .mod_fat_comments .code_login .code { width:91px; height:22px; }
+                .mod_fat_comments .code_login .published { float:right; }
+                .mod_fat_comments .code_login .published .login { color:#FE8B20; text-decoration:underline; margin:0 2px; }
+                .mod_fat_comments .code_login .published .submit { width:37px; height:18px; line-height:18px; background:url(/images/album/img/icon.png) -405px 0 no-repeat; border:none; cursor:pointer; color:#333; }
+
+.mod_share_album { width:304px; border:3px solid #bbdb9a; margin-top:45px; position:relative; }
+    .mod_share_album .angle { width:10px; height:10px; font-size:0; position:absolute; background:url(/images/album/img/icon.png) no-repeat; }
+    .mod_share_album .angle1 { top:-3px; left:-3px; background-position:-183px 0; }
+    .mod_share_album .angle2 { top:-3px; right:-3px; background-position:-193px 0; }
+    .mod_share_album .angle3 { bottom:-3px; right:-3px; background-position:-193px -10px; }
+    .mod_share_album .angle4 { bottom:-3px; left:-3px; background-position:-183px -10px; }
+    .mod_share_album .pre, .mod_share_album .next { display:block; width:16px; height:34px; text-indent:-88888px; position:absolute; top:50%; }
+    .mod_share_album .pre { background:url(/images/album/img/icon.png) -167px 0 no-repeat; }
+    .mod_share_album .pre:hover { left:-2px; }
+    .mod_share_album .next { background:url(/images/album/img/icon.png) -151px 0 no-repeat; right:0; }
+    .mod_share_album .next:hover { right:-2px; }
+     .mod_share_album .bd { padding:10px 0; }
+        .mod_share_album .album_lists { overflow:hidden; }
+            .mod_share_album .album_lists li { padding:8px 22px; float:left; }
+                    .mod_share_album .album_lists .photo { margin-bottom:5px; padding:5px; width:92px; height:92px; border:1px solid #E9EBEA; display:block; background:#fff;box-shadow:3px 3px 10px -4px #aaa; -moz-box-shadow:3px 3px 10px -4px #aaa; -webkit-box-shadow:3px 3px 10px -4px #aaa; -ms-filter:"progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=135,strength=4)"; *filter:progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=135,strength=4); }
+                    .mod_share_album .album_lists .photo:hover { background:#fff; border:1px solid #FF8A21; }
+                .mod_share_album .album_lists .photo_id { margin-left:5px; color:#4FAF03; line-height:1.5em; }
+                .mod_share_album .album_lists .photo_id:hover { color:#AAA; }
+                .mod_share_album .album_lists strong { display:block; margin-left:5px; font-weight:normal; }
+
+.mod_info_function { width:155px; }
+    .mod_info_function .hd { background:url(/images/album/bg/side_hd_bg.png) no-repeat; height:12px; font-size:0; }
+    .mod_info_function .bd { background:url(/images/album/bg/side_bd_bg.png); }
+        .mod_info_function .bd .user_info { padding:0 10px; position:relative; }
+            .mod_info_function .bd .user_info h2, .mod_info_function .bd .function h2 { line-height:15px; box-shadow:3px 3px 10px -2px #aaa; -moz-box-shadow:3px 3px 5px -1px #aaa; -webkit-box-shadow:3px 3px 5px -1px #aaa; -ms-filter:"progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=135,strength=4)"; *filter:progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=135,strength=4); position:absolute; top:10px; right:-20px; *right:-24px; width:25px; height:80px; padding-top:15px; background:#83C74E; color:#fff; font-size:14px; text-align:center; vertical-align:middle; }
+            .mod_info_function .bd .user_info .avatar { width:92px; height:92px; padding:5px; border:1px solid #CBCBCB; margin:0 auto; display:block; }
+            .mod_info_function .bd .user_info .info_lists { padding:10px 0; }
+                .mod_info_function .bd .user_info .info_lists li { padding:3px 0; color:#50AE02; }
+                    .mod_info_function .bd .user_info .info_lists .refresh { margin-left:3px; }
+                    .mod_info_function .bd .user_info .info_lists .progress_box { margin-right:10px; display:inline-block; width:75px; height:6px; border:1px solid #B5B5B5; }
+                        .mod_info_function .bd .user_info .info_lists .progress_content { font-size:0; background:#FF8A21;height:6px; display:block; }
+                .mod_info_function .bd .user_info .info_lists li .progress_figure { color:#ABABAB; }
+        .mod_info_function .bd .center_bg { height:35px; background:url(/images/album/bg/side_center_bg.png) no-repeat; }
+        .mod_info_function .bd .function { position:relative; padding:10px 15px; }
+                .mod_info_function .bd .function_lists li { height:35px; line-height:35px; padding-left:45px; background:url(/images/album/img/icon1.png) no-repeat; }
+                    .mod_info_function .bd .function_lists .menu01 { }
+                    .mod_info_function .bd .function_lists .menu02 { background-position:0 -35px; }
+                    .mod_info_function .bd .function_lists .menu03 { background-position:0 -70px; }
+                    .mod_info_function .bd .function_lists .menu04 { background-position:0 -105px; }
+                    .mod_info_function .bd .function_lists .menu05 { background-position:0 -140px; }
+                    .mod_info_function .bd .function_lists .menu06 { background-position:0 -175px; }
+                    .mod_info_function .bd .function_lists .menu07 { background-position:0 -210px; }
+                    .mod_info_function .bd .function_lists .menu08 { background-position:0 -245px; }
+                    .mod_info_function .bd .function_lists .menu09 { background-position:0 -280px; }
+                    .mod_info_function .bd .function_lists .menu10 { background-position:0 -315px; }
+                    .mod_info_function .bd .function .function_lists a { color:#51AF03; }
+                    .mod_info_function .bd .function .function_lists a:hover { color:#FE8B20; }
+    .mod_info_function .ft { background:url(/images/album/bg/side_ft_bg.png) no-repeat; height:19px; font-size:0; }
+
+.mod_book_manage .hd { height:23px; border-bottom:4px solid #85C64E; }
+    .mod_book_manage .hd h2 { padding-left:5px; font-size:14px; display:inline; color:#85c64e; }
+        .mod_book_manage .hd h2 .icon { margin-right:5px; vertical-align:middle; display:inline-block; width:16px; height:16px; background:url(/images/album/img/icon.png) -114px 0 no-repeat; }
+        .mod_book_manage .hd .back { float:right; }
+            .mod_book_manage .hd .back a { margin-left:10px; }
+        .mod_book_manage .book_lists { width:100%; margin-top:15px; }
+                    .mod_book_manage .book_lists th { border-right:1px solid #85C64E; color:#85C64E; }
+                        .mod_book_manage .book_lists .tr_hd .icon { margin-right:5px; vertical-align:middle; display:inline-block; width:16px; height:16px; background:url(/images/album/img/icon.png) -70px 0 no-repeat; }
+                    .mod_book_manage .book_lists .tr_ft { border:none; }
+                    .mod_book_manage .book_lists th { text-align:left; padding-left:10px;}
+                    .mod_book_manage .book_lists td { padding-left:10px;  height:30px; }
+                        .mod_book_manage .book_lists .td_hd .icon { margin-right:15px; vertical-align:middle; display:inline-block; width:11px; height:13px; background:url(/images/album/img/icon.png) -86px 0 no-repeat; }
+                    .mod_book_manage .book_lists .td_content { width:300px; }
+                        .mod_book_manage .book_lists .td_ft input { width:37px; height:18px; line-height:18px; background:url(/images/album/img/icon.png) -405px 0 no-repeat; border:none; cursor:pointer; padding:0 5px; margin-right:10px; color:#333; }
+
+.mod_editor .title { border-bottom:4px solid #83C74C; }
+    .mod_editor .title h2 { display:inline; font-size:14px; color:#83C74C; }
+        .mod_editor .title h2 .icon { display:inline-block; vertical-align:middle; width:15px; height:16px; background:url(/images/album/img/icon.png) no-repeat; }
+    .mod_editor .title .back { *margin-top:-22px; float:right; }
+    .mod_editor .title .back a { margin-left:10px; }
+.mod_editor .main { margin:25px auto; width:743px; }
+    .mod_editor .main .hd { height:20px; background:url(/images/album/bg/main_hd_bg.png) no-repeat; }
+    .mod_editor .main .bd { background:url(/images/album/bg/main_bd_bg.png) repeat-y; }
+    .mod_editor .main .ft { height:22px; background:url(/images/album/bg/main_ft_bg.png) repeat-y; }
+
+.mod_folding_2 .hd { height:14px; background:url(/images/album/bg/side_hd1.png) no-repeat; font-size:0; }
+.mod_folding_2 .bd {background:url(/images/album/bg/side_bd1.png); }
+    .mod_folding_2 .bd .fold { height:30px; background:url(/images/album/bg/side_bd_fold.png) no-repeat; }
+.mod_folding_2 .ft { height:14px; background:url(/images/album/bg/side_ft1.png) no-repeat; font-size:0; }
+
+/* 清除浮动 */
+.clearfloat {height:0px; overflow:hidden; clear:both; float:none; display:block;}
+
+/*分页*/
+
+/*end 分页*/
+
+.botton{background:url(/images/user/bg_botton.gif) no-repeat;margin:0;padding:0; width:84px; height:27px;line-height:27px; border:none; font-weight:bold; color:#FFf;text-align:center;cursor:pointer; }

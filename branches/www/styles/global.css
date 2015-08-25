@@ -1,0 +1,53 @@
+/**
+ * 前台显示通用样式
+ *
+ * @author     Akon(番茄红了) <aultoale@gmail.com>
+ * @copyright  Copyright (c) 2008 (http://www.imeelee.com)
+ */
+
+body {color:#000; font:12px Arial, Tahoma, Verdana; text-align:center; margin:0; padding:0; line-height:160%;}
+a img {border:none;}
+form, table, input, select, textarea {margin:0; font:12px Arial, Tahoma, Verdana; color:#000;}
+h1, h2, h3, h4, h5, h6 {margin:10px 0;}
+h1 {font-size:20px;}
+h2 {font-size:18px;}
+h3 {font-size:16px;}
+h4 {font-size:14px;}
+h5 {font-size:12px;}
+h6 {font-size:10px;}
+small {font-size:11px;}
+textarea{overflow:auto;}
+fieldset {border:1px solid #FEB6CE; padding:5px 10px; -padding:10px 10px 5px 10px; margin:5px 0 10px 0; display:block}
+fieldset legend {font-size:12px; font-weight:bold; color:#F60; padding:0 5px;}
+p {margin:5px 0;}
+table {empty-cells:show;}
+
+/* 链接样式 */
+a {color:#06C; text-decoration:none;}
+a:hover {color:#F30; text-decoration:underline;}
+
+/* 高亮显示 */
+.highlight {background:#FF0;color:#E00}
+
+/* 清除浮动 */
+.clearfloat {height:0px; overflow:hidden; clear:both; float:none; display:block;}
+
+/* input text*/
+input.text {padding:3px 3px; border:1px solid #FEB6CE; background:#FFF; color:#333;}
+input.texthover {border-color:#FEB6CE; background:#FFF;}
+
+/* input button/submit */
+input.button {border:1px solid #FEB6CE; background:#FFF4F8; padding:1px 4px 3px 4px; color:#333; +padding:0px; height:23px; +height:24px; line-height:22px; margin-right:1px; +margin-right:0; cursor:pointer;}
+input.buttonhover {background:#961F4B; border-color:#FEDEED; color:#FFF;}
+
+/* textarea */
+textarea{padding:2px 1px; border:1px solid #FEB6CE; background:#FAFAFF; color:#333; overflow:auto;}
+textarea.textareahover {border-color:#FA9;; background:#FFF;}
+
+select {border:1px solid #A8BED3; color:#333;}
+
+/* 分页样式 */
+.pagination {clear:both; color:#333; font-weight:normal;}
+.pagination a {background:#FFF; color:#06e; border:1px solid #DDDDDD; padding:2px 7px; text-decoration:none;}
+.pagination a:hover {background:#F30; color:#FFF; text-decoration:none;}
+.pagination .pageCurrentItem {color:#F30; font-weight:bold; padding:2px 7px;}

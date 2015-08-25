@@ -1,0 +1,37 @@
+zhongyy 123456 最高权限
+zyy  普通用户
+trunk\application\config #配置文件
+管理后台路径www.domain.com/admin 
+
+C:\WINDOWS\system32\drivers\etc 下host 配置文件
+127.0.0.1       www.yunphp.cn
+以上 是 相当指定一个域名 到程序的根目录
+
+
+php.ini extension=php_pdo.dll打开 
+apache 配置的 LoadModule rewrite_module modules/mod_rewrite.so 重写模块打开
+配置 host
+
+httpd.conf 文件中内容
+Include conf/ extra/ httpd-vhosts.conf （即去掉#） 
+然后打开目录 extra/ httpd-vhosts.conf 文件
+
+我的配置:
+#网站根目录
+NameVirtualHost *:80
+<VirtualHost *:80>
+    DocumentRoot "d:/www"
+    ServerName localhost
+    ServerAlias localhost
+    ErrorLog "logs/dummy-host.localhost.log"
+    CustomLog "logs/dummy-host.localhost.log" common
+</VirtualHost>
+
+#zend framework运行域名
+<VirtualHost *:80>
+    DocumentRoot "D:\www\zhongyycode\trunk"
+    ServerName www.yunphp.cn
+    ServerAlias yunphp.cn *.yunphp.cn
+    ErrorLog "logs/yunphp-error.log"
+    CustomLog "logs/yunphp-access.log" common
+</VirtualHost>

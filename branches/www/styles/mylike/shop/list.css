@@ -1,0 +1,97 @@
+/**
+ * 商品列表/搜索页样式
+ *
+ * @author     Akon(番茄红了) <aultoale@gmail.com>
+ * @copyright  Copyright (c) 2008-2009 (http://www.imeelee.com/)
+ */
+
+/**
+ * 侧栏
+ */
+#sidebar {width:200px; float:left; clear:left; margin-top:15px;}
+.sidebox {border:1px solid #F9D7E5; border-bottom:none; clear:both; overflow:hidden;}
+.sidebox .top {background:url(/v3/images/bg_detail_box.gif) repeat-x; border-bottom:1px solid #F9D7E5;}
+.sidebox .top h4 {font-size:12px; color:#C91657; background:url(/v3/images/icon_arrow_2.gif) 7px 6px no-repeat; +background-position:7px 5px; padding-left:26px; margin:1px 0 0 0; height:25px; line-height:25px;}
+.sidebox .main {padding:6px 10px;}
+/* 下级分类 */
+.category ul {margin:0; padding:0; list-style:none;}
+.category ul li {width:33%;; float:left; height:24px; line-height:24px; overflow:hidden;}
+.category ul li.current a {color:#F40; font-weight:bold;}
+
+/* 商品筛选 */
+.filter .main {padding:10px;}
+.filter table th {font-weight:normal; line-height:28px;}
+.filter table td {color:#666}
+.filter table select {color:#666;}
+.filter center {margin-top:6px;}
+/* 浏览历史 */
+.history {border-bottom:1px solid #F9D7E5;}
+.history .top a {display:block; position:absolute; width:40px; margin:-22px 0 0 165px; height:20px; text-decoration:underline;}
+.history .items {clear:both; margin:8px 0;}
+.history .items .img {border:1px solid #DBDBDB; background:#FFF; text-align:center; width:60px; height:60px; float:left; overflow:hidden;}
+.history .items .name, .history .items .price {width:108px; float:right; height:26px; line-height:26px; overflow:hidden; color:#666;}
+.history .items .name {margin-top:3px;}
+/* 广告位 */
+.advert {margin-top:10px;}
+.advert p {margin-bottom:10px;}
+
+/**
+ * 主体
+ */
+#main {width:735px; float:right; clear:right; margin-top:15px;}
+.option-list {clear:both; margin-bottom:15px;}
+.option-list h4 {font-size:14px; margin:0; padding:0 0 3px 15px; background:url(/v3/images/icon_arrow_6.gif) 0 7px no-repeat; +background-position:0 2px; border-bottom:1px dashed #CCC;}
+.option-list ul {margin:0 10px; padding:0; list-style:none;}
+.option-list .expand {display:none; text-align:center; margin:10px auto; width:130px; border:1px solid #CCC; line-height:25px;}
+.option-list .expand a {background:url(/v3/images/icon_down3.gif) 0 2px no-repeat; +background-position:0 0 !important; +background-position:0 2px; padding-left:15px}
+
+/* 搜索条件 */
+.condition ul li {float:left; border:1px solid #CCEDFF; padding:2px 3px 1px 8px; +padding:3px 3px 2px 8px; background:#F1FAFF; margin:10px 10px 0 0; color:#F60; white-space:nowrap;}
+.condition ul li a.cancel {margin:0; padding:0 5px; cursor:pointer;}
+.condition p {margin:10px; font-size:14px;}
+.condition p strong {color:#F30;}
+/* 品牌列表 */
+.brand-list ul {margin-top:10px;}
+.brand-list ul li {float:left; width:24.5%; line-height:22px; margin-right:0.5%;}
+/* 功效列表 */
+.effect-list ul {margin-top:10px;}
+.effect-list ul li {float:left; width:16%; line-height:22px; margin-right:0.6%;}
+/* 商品列表顶部 */
+.goods-top {margin:0; padding:0; list-style:none; border:1px solid #FADAE7; background:url(/v3/images/bg_detail_box.gif) repeat-x; height:30px; line-height:30px; color:#333;}
+.smallPagination {color:#666; position:absolute; width:250px; margin-left:478px; text-align:right; margin-top:4px; +padding:4px 0;}
+.goods-top li {float:left; margin-left:10px;}
+.goods-top li.list, .goods-top li.img {padding-top:0px !important; padding-top:7px;}
+.goods-top li.sort, .goods-top li.spec, .goods-top li.small {padding-top:0px !important; padding-top:5px;}
+.goods-top li a {color:#555;}
+.goods-top li.sep {width:1px; height:16px; overflow:hidden; background:#DDD; margin:7px 0 7px 10px;}
+/* 分页样式 */
+#main .pagination {margin:25px 0; text-align:center;}
+/* 商品列表 */
+.goods-list {margin:0; padding:0; list-style:none;}
+.goods-list li {margin-top:25px; padding-bottom:15px; border-bottom:1px dashed #DDD;}
+.goods-list li .left {float:left; width:160px; text-align:center;}
+.goods-list li .left .img {width:120px; height:120px; padding:1px; border:1px solid #DBDBDB; margin:2px auto 0 auto; overflow:hidden;}
+.goods-list li .left .act {margin-top:3px; +margin-top:8px;}
+.goods-list li .left .act .fav {background:url(/v3/images/icon/star.gif) no-repeat; padding:1px 0 0 22px; +padding-top:3px; margin-right:5px;}
+.goods-list li .left .act .cmt {background:url(/v3/images/icon/comments.gif) no-repeat; padding:1px 0 0 22px; +padding-top:3px; margin-left:5px;}
+.goods-list li .left .act .ctrst {background:url(/v3/images/icon/images.gif) no-repeat; padding:1px 0 0 22px; +padding-top:3px; margin-left:5px;}
+.goods-list li .left .act a {color:#777;}
+.goods-list li .right {float:right; width:570px;}
+.goods-list li .right h4 {font-size:14px; margin:0;}
+.goods-list li .right .price {position:absolute; text-align:right; width:80px; margin:-22px 0 0 470px; color:#999; font-size:14px;}
+.goods-list li .right .price em {color:#D00; font-size:16px; font-style:normal; margin-left:3px; font-weight:bold;}
+.goods-list li .right .attr {margin:6px 0 0 0; padding:0;}
+.goods-list li .right .attr dd {margin:0; padding:0; display:inline; margin-right:10px; color:#666;}
+.goods-list li .right .intro {margin:10px 0 10px 0; color:#999; line-height:170%;}
+.goods-list li .right .opera {margin-top:12px;}
+.goods-list li .right .opera span.left {float:left; width:100px; color:#D00; font-size:14px;}
+.goods-list li .right .opera span.right {float:right; width:350px; text-align:right;}
+/* 大图列表 */
+.goods-img {margin:0 0 10px 0; padding:0; list-style:none;}
+.goods-img li {width:33%; text-align:center; float:left; margin-top:25px;}
+.goods-img li .img {width:200px; height:200px; padding:1px; border:1px solid #DBDBDB; margin:auto; overflow:hidden;}
+.goods-img li .name {overflow:hidden; height:22px; line-height:22px; margin:5px 5px 0 5px;}
+.goods-img li .price {color:#FE2E86; margin:4px 0;}
+.goods-img li .price em {font-style:normal; padding:1px 3px; background:#B6275B; color:#FFF;}
+.goods-img li .opera {margin-top:8px; color:#D00; font-size:14px;}
+.goods-img li .opera a {margin:0 3px;}

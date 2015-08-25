@@ -1,0 +1,29 @@
+/* 左栏 */
+#commentList .main .left {width:720px; float:left;}
+#commentList .main .left .separator {clear:both; height:12px; margin-bottom:15px; overflow:hidden; border-bottom:1px dashed #E0E0E0; width:720px;}
+#commentList .main .left .page {margin-top:20px;}
+
+.comment-item {width:630px; clear:both; margin:15px 0; float:left;}
+.comment-item .avatar {margin:0; width:50px; height:50px; float:left; border:1px solid #DBDBDB; display:block;}
+.comment-item .info {width:570px; float:right; padding-left:5px; background:#F5F5F5; border-top:1px solid #D9D9D9;}
+.comment-item .info span {margin:0 5px 0 0;}
+.comment-item .info .author {color:#666;}
+.comment-item .info .time {color:#999; font-size:11px;}
+.comment-item .score {background:#F5F5F5; padding-bottom:2px; width:570px; float:right; padding-left:5px;}
+.comment-item .score .span {margin-right:5px;}
+.comment-item .score .rating img {margin:0 1px 3px 1px;}
+.comment-item .score .skin {color:#666;}
+.comment-item .score .detail a {color:#666; background:url(/v3/images/icon_down2.gif) right no-repeat; padding-right:12px;}
+.comment-item .content {margin-top:8px; color:#333; width:570px; float:right;}
+.goods-img {float:right; width:80px; height:80px; margin-top:15px; border:1px solid #DBDBDB; display:block; padding:1px;}
+
+/* 右栏 */
+#commentList .right {width:210px; float:right;}
+#commentList .right .cond {border:1px solid #F8D6E6; margin-bottom:15px;}
+#commentList .right .cond .top {background:url(/v3/images/bg_ntop.gif) 5px bottom no-repeat; padding-bottom:2px;}
+#commentList .right .cond .top h4 {margin:0; font-size:14px; color:#CA1759; padding-left:28px; background:url(/v3/images/icon_arrow_2.gif) 9px 7px no-repeat; height:28px; line-height:25px; +line-height:29px;}
+#commentList .right .cond .main {padding:8px; margin:0;}
+#commentList .right .cond .main ul {margin:0; padding:0; list-style:none;}
+#commentList .right .cond .main ul li {padding-left:18px; background:url(/v3/images/icon_arrow_4.gif) 5px 7px no-repeat; height:22px; line-height:22px; overflow:hidden;}
+#commentList .right .cond .main ul li a {padding:2px;}
+#commentList .right .cond .main ul li a.current {background:#FF4400; color:#FFFFFF;}

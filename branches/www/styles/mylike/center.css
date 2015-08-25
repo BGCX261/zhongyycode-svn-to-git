@@ -1,0 +1,24 @@
+/**
+ * 用户中心
+ *
+ * @author    zhongyy<regulusyun@gmail.com>
+ * @copyright  Copyright (c) 2010
+ */
+
+#mainbody {background:url(/images/bg_center_top.gif) top repeat-x; padding-top:15px;}
+
+#left-menu {width:130px; float:left; border-bottom:1px solid #F8D7E4;}
+#left-menu .box {border:1px solid #F8D7E4; border-bottom:none;}
+#left-menu .box .top {background:url(/images/bg_box_top.gif) repeat-x; border:1px solid #F8D7E4; border-width:0 0 1px 0; }
+#left-menu .box .top h4 {margin:5px 0 3px 0; font-size:12px; color:#CA1757; padding-left:26px; background:url(/images/icon_arrow_2.gif) 8px 3px no-repeat;}
+#left-menu .box .main {padding:5px;}
+#left-menu .box .main ul {margin:5px; padding:0; list-style:none;}
+#left-menu .box .main ul li a {background:url(/images/icon_arrow_4.gif) 0 5px no-repeat; padding-left:18px; height:22px; line-height:22px; display:block; overflow:hidden;}
+#left-menu .box .main ul li a:hover {background-position:1px 6px; padding:1px 0 0 19px; height:21px;}
+
+#main-content {width:805px; float:right;}
+#main-content .mainbox {border:1px solid #F8D7E4;}
+#main-content .mainbox .top {border-bottom:1px solid #F8D7E4; background:url(/images/bg_box_top.gif) repeat-x;}
+#main-content .mainbox .top h4 {margin:5px 0 3px 0; font-size:12px; color:#CA1757; padding-left:26px; background:url(/images/icon_arrow_2.gif) 8px 3px no-repeat;}
+#main-content .mainbox .top .more {position:absolute; width:100px; height:20px; text-align:right; margin:-25px 0 0 690px;}
+#main-content .mainbox .main {padding:5px;}

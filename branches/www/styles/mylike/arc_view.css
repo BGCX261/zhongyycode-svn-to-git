@@ -1,0 +1,65 @@
+/* CSS Document */
+
+.mainbox {width:715px;overflow:hidden;}
+
+#related_article ul {margin:0; padding:0; list-style:none;}
+#related_article ul li {height:24px; line-height:24px; overflow:hidden; padding-left:10px; background:url(/v3/images/icon_dot.gif) 0 12px no-repeat;}
+#related_article ul li a {color:#333;}
+
+#article_view {border:1px solid #F9D7E5; padding:5px 10px 15px 10px;}
+#article_view h1 {font-size:24px; margin:5px; padding:10px 0; border-bottom:1px dashed #F9D7E5;}
+#article_view .info {color:#666; margin:0 5px 0 7px;}
+#article_view .info span {margin-right:8px;}
+#article_view .info .from a {color:#666;}
+#article_view .info .count small {color:#F30; font-size:12px; margin:0 2px;}
+#article_view .content {font-size:14px; margin:25px 5px;}
+#article_view .content a {text-decoration:underline;}
+#article_view .content img {border:1px solid #ccc; padding:2px;}
+#article_view .pages {clear:both; font-weight:normal; padding:1px; text-align:center; margin:15px auto; font-size:15px;}
+#article_view .pages span {color:#F30; font-weight:bold; padding:2px 7px;}
+#article_view .pages a {background:#FFF; color:#06e; border:1px solid #DDDDDD; padding:2px 7px; text-decoration:none;}
+#article_view .pages a:hover {background:#F30; color:#FFF; text-decoration:none;}
+#article_view .separator {border-bottom:1px dashed #F9D7E5;}
+
+#digg {margin:25px auto; width:410px; overflow:hidden;}
+.diggbox {cursor:pointer; float:left; height:51px; margin:0 5px; overflow:hidden; width:195px;}
+.diggbox .digg_act {float:left; font-size:14px; font-weight:bold; height:29px; line-height:31px; overflow:hidden; text-indent:32px;}
+.diggbox .digg_num {float:left; line-height:29px; text-indent:5px;}
+.diggbox .digg_per {text-align:left; clear:both; overflow:hidden; padding-left:10px; width:180px;}
+.diggbox .digg_per .digg_per_bar {background:#E8E8E8 none repeat scroll 0 0; border-right:1px solid #CCC; float:left; height:7px; margin-top:3px; overflow:hidden; width:100px;}
+.diggbox .digg_per .digg_per_num {float:left; font-size:10px; padding-left:10px; margin-top:-5px;}
+.diggbox .digg_per .digg_per_bar span {background:#000000 none repeat scroll 0 0; display:block; height:5px; overflow:hidden;}
+#digg_support {background:transparent url(/v3/images/bg_newsdigg.png) no-repeat scroll left top;}
+#digg_oppose {background:transparent url(/v3/images/bg_newsdigg.png) no-repeat scroll right top;}
+#digg_support .digg_act {color:#C30;}
+#digg_support .digg_num {color:#C63;}
+#digg_oppose .digg_act {color:#36C;}
+#digg_oppose .digg_num {color:#39C;}
+#digg_support .digg_per .digg_per_bar span {background:#FFC535 none repeat scroll 0 0; border:1px solid #E37F24;}
+#digg_oppose .digg_per .digg_per_bar span {background:#94C0E4 none repeat scroll 0 0; border:1px solid #689ACC;}
+
+#tags {margin:10px 0; font-size:14px;}
+
+#article_link {margin-top:5px; overflow:hidden;}
+#article_link .prev {float:left; clear:left; width:49%; overflow:hidden; text-align:left;}
+#article_link .next {float:right; clear:right; width:49%; overflow:hidden; text-align:right;}
+
+#comment, #recent-comments {margin-top:15px; position:relative;}
+#recent-comments .top small {color:#999; font-size:12px; font-weight:normal;}
+#recent-comments .smallPagination {position:absolute; text-align:right; top:1px; right:3px;}
+#recent-comments .pagination {text-align:right;}
+
+/* ∆¿¬€¡–±Ì */
+.comment-item {margin:10px 0 15px 0; clear:both;}
+.comment-item .avatar {margin:0; width:50px; height:50px; float:left;}
+.comment-item .info {width:630px; float:right; padding-left:5px; background:#FFF5FA; border-top:1px solid #C8558C;}
+.comment-item .info span {margin:0 5px 0 0;}
+.comment-item .info .floor {position:absolute; display:block; +margin-top:-3px; margin-left:590px; color:#666;}
+.comment-item .info .author {color:#666;}
+.comment-item .info .time {color:#999; font-size:11px;}
+.comment-item .info .act small {font-size:11px; color:gray;}
+.comment-item .content {margin-top:3px; color:#333; width:630px; float:right; padding-left:5px;}
+.comment-item .content blockquote {background:url(/v3/images/bg_quote.gif) no-repeat; margin:5px; padding:0 0 0 18px; color:#aaa;}
+.comment-item .reply-form {margin:5px 0 0 5px; width:630px; float:right; display:none;}
+.comment-item .reply-form p {margin:5px 0;}
+.comment-item .reply-form p.title {margin-bottom:2px; color:#666;}

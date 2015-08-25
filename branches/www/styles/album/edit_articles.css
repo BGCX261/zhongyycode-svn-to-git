@@ -1,0 +1,15 @@
+#side { width:180px; float:left; }
+
+#main { width:745px; float:right; }
+
+.articles .main .bd { overflow:hidden; padding:0 25px; }
+	.articles .main .articles_name { display:block; }
+		.articles .main .name { margin-right:5px; width:75px; text-align:right;  vertical-align:middle; font-size:14px; color:#81C64F; font-weight:bold; padding:0 5px; display:inline-block; height:30px; border-right:4px solid #81C64F; }
+			.articles .main .name sup { display:block; margin-top:-5px; font-size:13px; font-weight:normal; }
+		.articles .main .input_text { padding:0 5px; width:410px; height:23px; border:1px solid #C9C9C9; }
+		.articles .main .text { margin-left:80px; }
+	.articles .main .articles_class { display:block;  margin-top:30px; }
+		.articles .main .articles_class select { width:210px; height:23px; border:1px solid #C9C9C9; }
+	.articles .main .add_tags { clear:both; padding-top:20px; display:block; }
+		.articles .main .add_tags .input_text { width:410px; }
+	.articles .main .editor { margin-top:30px; }

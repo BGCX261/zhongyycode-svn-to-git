@@ -1,0 +1,16 @@
+#side { width:180px; float:left; }
+
+#main { width:745px; float:right; }
+
+.topics .main .bd { overflow:hidden; padding:0 25px; }
+    .topics .main label { display:block; }
+    .topics .main .topics_name { float:left; }
+        .topics .main .name { width:90px; text-align:right;  vertical-align:middle; font-size:14px; color:#81C64F; font-weight:bold; padding:0 5px; display:inline-block; height:30px; border-right:4px solid #81C64F; }
+            .topics .main .name sup { display:block; margin-top:-5px; font-size:13px; font-weight:normal; }
+        .topics .main .input_text { padding:0 5px; margin-left:5px; width:250px; height:23px;line-height:23px; border:1px solid #C9C9C9; }
+        .topics .main .text { margin-left:120px; }
+    .topics .main .topics_class { width:90px; float:left; margin-left:20px; }
+        .topics .main .topics_class select { width:210px; height:23px; border:1px solid #C9C9C9; }
+    .topics .main .add_tags { clear:both; padding-top:20px; display:block; }
+        .topics .main .add_tags .input_text { width:410px; }
+    .topics .main .editor { margin-top:30px; }

@@ -1,0 +1,87 @@
+/**
+ * 商城样式
+ *
+ * @author     Akon(番茄红了) <aultoale@gmail.com>
+ * @copyright  Copyright (c) 2008 (http://www.imeelee.com)
+ */
+
+/*********************************************************
+ * 侧栏
+ *********************************************************/
+#sidebar {width:235px; float:left; clear:left; overflow:hidden; text-align:left;}
+#innserSidebar {overflow:hidden; }
+.sidebox {border:1px solid #FFCBDC  ; margin-bottom:10px; clear:both; background:url(/images/bg_box.png) repeat-x; padding:0 10px;}
+.sidebox .sTop {background:url(/images/icon_top.gif) 0 7px no-repeat; height:28px; line-height:28px; padding:0 0 0 15px; color:#06a;}
+.sidebox .sTop h4 {font-size:14px; margin:0; padding:0;}
+.sidebox .sMain {border-top:1px solid #FFCBDC  ; padding:5px 0; clear:both;}
+.sidebox .sBottom {clear:both;}
+
+/*左侧*/
+#leftSidebar{width:192px; float:left; clear:left; overflow:hidden; text-align:left; padding:0px; margin:0px;}
+#leftSidebar .sidebarTop{background:url(/images/left_bg_category_top.jpg) no-repeat; height:7px; width:192px; margin:0px; padding:0;overflow:hidden;}
+.leftSidebox {margin:0; clear:both; background:#FCF1F7 repeat; padding:0; overflow:hidden;}
+.sidebarmain{border:solid #F9D6E5; border-width:0 1px; overflow:hidden;}
+.leftSidebox .sTop {background:url(/images/left_category.jpg) no-repeat; width:162px; height:27px; line-height:27px; overflow:hidden; padding:0 0 0 20px; font-size:14px; color:#FFF; margin:0px 0 0 4px;}
+.leftSidebox .sTop h4 {font-size:14px; margin:0; padding:0;}
+.leftSidebox .sMain {padding:0; clear:both; text-align:left;}
+.leftSidebox .sBottom {clear:both;}
+#leftSidebar .sidebarBottom{background:url(/images/left_bg_category_bottom.jpg) no-repeat; height:7px; width:192px; margin:0px; padding:0;overflow:hidden;}
+
+/* 商品分类 */
+#category {margin-bottom:5px;}
+#category .sMain {padding:0;}
+#category .sMain ul {margin:10px 0 10px 5px; padding:0; list-style:none; clear:both;}
+#category .sMain ul h5 {font-size:12px; margin:0; padding:0;}
+#category .sMain ul h5 a {color:#D30; text-decoration:none; display:block; background:url(/images/icon_arrow_1.gif) 0 10px no-repeat; line-height:24px; margin-left:5px; padding-left:10px;}
+#category  ul h5 a:hover {color:#F30; text-decoration:underline; background-position:1px 11px;}
+#category .sMain ul li {width:55px; float:left; margin-left:5px;}
+#category .sMain ul li a {color:#656262; padding:2px;+padding:4px 2px;}
+#category .sMain ul li a:hover {background:#DE3885;color:#FFF; text-decoration:none;}
+
+/* 品牌分类 */
+#brands { margin-bottom:5px;}
+#brands .sMain ul {margin:5px; padding:0; list-style:none;}
+#brands .sMain ul li a {color:#656262; display:block; border-bottom:1px dashed #DDD; height:22px; line-height:22px; overflow:hidden; background:url(/images/icon_arrow_1.gif) 5px 8px no-repeat; padding-left:15px;}
+#brands .sMain ul li a:hover {background:#FAD3E8 url(/images/icon_arrow_1.gif) 6px 9px no-repeat; text-decoration:none;color:#FF0000 ;border-color:#AAA;}
+
+#brands_02 { margin-bottom:5px;}
+#brands_02 .sMain ul {margin:5px; padding:0; list-style:none;}
+#brands_02 .sMain ul li a {color:#656262; display:block; border-bottom:1px dashed #DDD; height:22px; line-height:22px; overflow:hidden; background:url(/images/icon_arrow_1.gif) 5px 8px no-repeat; padding-left:15px;}
+#brands_02 .sMain ul li a:hover {background:#FAD3E8 url(/images/icon_arrow_1.gif) 6px 9px no-repeat; text-decoration:none;color:#FF0000 ;border-color:#AAA;}
+
+/* 问题皮肤 */
+#question { margin-bottom:5px;}
+#question .sMain ul {margin:5px; padding:0; list-style:none;}
+#question .sMain ul li {width:90px; float:left;}
+#question .sMain ul li a {display:block; color:#656262; background:url(/images/icon_dot.gif) 5px 8px no-repeat; padding-left:15px; height:22px; line-height:22px; overflow:hidden;}
+#question .sMain ul li a:hover {background-position:6px 9px; color:#FF0000}
+#question .sBottom {+height:10px;}
+
+/* 价格范围 */
+#prices { margin-bottom:5px;}
+#prices .sMain ul {margin:5px; padding:0; list-style:none; margin-left:20px;}
+#prices .sMain ul li a {color:#656262; display:block; background:url(/images/icon_dot.gif) 5px 8px no-repeat; padding-left:15px; height:20px; line-height:20px; overflow:hidden;}
+#prices .sMain ul li a:hover {background-position:6px 9px;color:#FF0000}
+
+/* 最新热评 */
+#comments{}
+#comments .sMain ul {margin:5px; padding:0; list-style:none;}
+#comments .sMain ul li a {color:#656262; background:url(/images/icon_dot.gif) 5px 8px no-repeat; padding-left:15px; height:20px; line-height:20px;}
+#comments .sMain ul li a:hover {background-position:6px 9px;color:#FF0000}
+
+/*********************************************************
+ * 主体
+ *********************************************************/
+#main {width:700px; float:right; clear:right; overflow:hidden;}
+#innerMain {}
+
+.mainbox {border:1px solid #FFCBDC; margin-top:5px; background:url(/images/bg_box.png) repeat-x; padding:0 10px; text-align:left;}
+.mainbox .top {background:url(/images/icon_top.gif) 0 7px no-repeat; border-bottom:1px solid #FFCBDC  ; height:28px; line-height:28px; padding:0 10px 0 15px; color:#06a;}
+.mainbox .top h4 {font-size:14px; margin:0; padding:0; width:400px; float:left; +padding-top:1px;}
+.mainbox .top .more {display:block; width:100px; float:right; line-height:28px; text-align:right; padding-top:8px;}
+.mainbox .main {clear:both; padding:5px 0 10px 0;}
+.mainbox .main .goods .mPrice {color:gray;}
+.mainbox .main .goods .vPrice {color:green;}
+.mainbox .bottom {clear:both;}
+
+#position {font:12px "宋体", Arial; text-align:left; margin:0 0 10px 10px;}

@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<title>YoxView Installation Instructions</title>
+<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="yox.js"></script>
+<script type="text/javascript" src="yoxview-init.js"></script>
+<style type="text/css">
+img{border:0;}
+</style>
+</head>
+<body>
+    <div class="yoxview">
+
+        <a href="2.jpg"><img src="2.jpg" alt="Second" title="Second image" /></a>
+        <a href="1.jpg"><img src="3.jpg" alt="Second" title="3 image" /></a>
+
+    </div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".yoxview").yoxview({
+            videoSize: { maxwidth: 720, maxheight: 560 }
+        });
+
+    });
+</script>
+
+<div id="yoxview_picasa"></div>
+</body>
+</html>

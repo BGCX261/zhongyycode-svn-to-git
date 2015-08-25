@@ -1,0 +1,60 @@
+/**
+ * 资讯频道样式
+ *
+ * @author     Akon(番茄红了) <aultoale@gmail.com>
+ * @copyright  Copyright (c) 2008-2009 (http://www.imeelee.com/)
+ */
+
+/**
+ * 当前位置
+ */
+#location {color:#555; border-bottom:2px solid #CA1558;}
+#location .left {width:700px; overflow:hidden; float:left; line-height:22px;}
+#location .left strong {color:#000; font-weight:normal;}
+#location .left a {margin:0;}
+#location .left a.cate {background:url(/v3/images/icon/down.gif) right no-repeat; +background-position:right top; padding-right:18px; height:20px;}
+#location .left span.arrow {margin:0 3px; color:#000;}
+#location .right {width:250px; overflow:hidden; float:right; text-align:right; line-height:22px;}
+
+/**
+ * 侧栏
+ */
+#sidebar {width:224px; float:right; clear:right; margin-top:10px;}
+.sidebox {border:1px solid #F9D7E5; margin-bottom:10px;}
+.sidebox .top {background:url(/v3/images/bg_detail_box.gif) repeat-x; border-bottom:1px solid #F9D7E5;}
+.sidebox .top h3 {font-size:14px; color:#C91657; background:url(/v3/images/icon_arrow_2.gif) 7px 6px no-repeat; +background-position:7px 5px; padding-left:26px; margin:1px 0 0 0; height:25px; line-height:25px;}
+.sidebox .top .more {position:absolute; margin:-25px 0 0 150px; display:block; width:65px; line-height:25px; text-align:right; color:#666;}
+.sidebox .main {padding:6px 10px;}
+/* 搜索 */
+#news_search form {margin:5px auto 3px auto;}
+#news_search .submission a {color:#666; padding-left:20px; background:url(/v3/images/icon/coins.gif) 0 4px no-repeat; display:block; height:25px; line-height:25px;}
+/* 热门标签 */
+#hot_tags a {margin-right:8px; font-size:14px;}
+#hot_tags .more {font-size:12px;}
+/* 最近评论 */
+#recent_comment ul {margin:0; padding:0; list-style:none;}
+#recent_comment ul li {height:24px; line-height:24px; overflow:hidden; padding-left:10px; background:url(/v3/images/icon_dot.gif) 0 12px no-repeat;}
+#recent_comment ul li a {color:#333;}
+#recent_comment ul li a.author {color:#04c;}
+/* 热门推荐 */
+#hot_recommend ul {margin:0; padding:0; list-style:none;}
+#hot_recommend ul li {height:24px; line-height:24px; overflow:hidden; padding-left:10px; background:url(/v3/images/icon_dot.gif) 0 12px no-repeat;}
+#hot_recommend ul li a {color:#333;}
+/**
+ * 主体
+ */
+#main {width:715px; float:left; clear:left; margin-top:10px; overflow:hidden;}
+#main .left {float:left; clear:left;}
+#main .right {float:right; clear:right;}
+.mainbox {border:1px solid #F9D7E5; margin-bottom:10px;}
+.mainbox .top {background:url(/v3/images/bg_detail_box.gif) repeat-x; border-bottom:1px solid #F9D7E5;}
+.mainbox .top h3 {font-size:14px; color:#C91657; background:url(/v3/images/icon_arrow_2.gif) 7px 6px no-repeat; +background-position:7px 5px; padding-left:26px; margin:1px 0 0 0; height:25px; line-height:25px;}
+.mainbox .top .more {position:absolute; margin:-25px 0 0 640px; display:block; width:65px; line-height:25px; text-align:right; color:#666;}
+.mainbox .main {padding:6px 10px;}
+
+#article_list {border:1px solid #F9D7E5; padding:0 10px; margin-bottom:10px;}
+#article_list .items {margin:12px 0; border-bottom:1px dashed #DDD; padding-bottom:12px;}
+#article_list h2 {font-size:15px; margin:5px 0 3px 0; padding:0;}
+#article_list h2 em {font-size:11px; color:gray; font-style:normal; font-weight:normal; margin-left:3px;}
+#article_list p {margin:0; color:#444; font-size:13px;}
+#article_list .pagination {font-size:15px;}

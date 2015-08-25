@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+body {margin:0; color:#333; font:12px "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif; background:#FFF url(/public/images/admin/bg_main_top.gif) repeat-x; text-align:left; margin:20px; line-height:160%;}
+img {border:none;}
+form, table, input, select, textarea {margin:0; font:12px "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;}
+h1, h2, h3, h4, h5, h6 {margin:0; padding:0;}
+label {display:block;margin:2px 0;}
+small {font:11px Tahoma, Verdana, Arial}
+
+/* input text*/
+input.text {padding:2px; border:1px solid #DEEFFA; color:#666; background:#FFFFFF;}
+input.texthover {border:1px solid #FFCCAA;}
+
+/* input button/submit */
+input.button {border:1px solid #82BCD3;  background:#F8F8FF; padding:0 3px 2px 3px; +padding:0 1px 0 1px; height:20px; +height:22px; line-height:22px; margin-right:1px; +margin-right:0;}
+input.buttonhover {background:#DEEFFA;}
+
+/* textarea */
+textarea{padding:2px 1px; border:1px solid #DEEFFA; background:#FFFFFF; color:#666; overflow:auto;}
+textarea.textareahover {border:1px solid #FFCCAA;}
+
+/* 超链接 */
+a:link, a:visited {color:#06A; text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+/* 清除浮动 */
+.clearfloat {height:0px; overflow:hidden; clear:both;}
+
+.main_background{background:transparent url(/public/images/admin/bg_repx_hb.gif) repeat-x scroll 0 0;padding-top:9px;}
+
+table td, table tr {padding:5px 0px;}
+	table td{ border-bottom:1px #DEEFFA dashed ;}
+	table th{color:#000000;font-weight:bold;}
+/* input text*/
+input.text {padding:3px 3px; border:1px solid #A8BED3; background:#FAFAFF; color:#333;}
+input.texthover {border-color:#FA9; background:#FFF;}
+
+/* input button/submit */
+input.button {border:1px solid #A8BED3; background:#DEEFFA; padding:1px 4px 3px 4px; color:#333; +padding:0px; height:23px; +height:24px; line-height:22px; margin-right:1px; +margin-right:0; cursor:pointer;}
+input.buttonhover {background:#F60; border-color:#666; color:#FFF;}
+
+/* textarea */
+textarea{padding:2px 1px; border:1px solid #A8BED3; background:#FAFAFF; color:#333; overflow:auto;width:500px;}
+textarea.textareahover {border-color:#FA9;; background:#FFF;}
+
+select {border:1px solid #A8BED3; color:#333;}
+
+	/*.txt:hover, .txt:focus, textarea:hover, textarea:focus,select:hover, select:focus {background:#F5F9FD none repeat scroll 0 0;border-color:#0099CC;}*/
+	.bule_line{background:transparent url(/public/images/admin/bg_repx.gif) repeat-x scroll 0 0;padding-top:5px; margin:0px 5px;}
+	.del_td{ border:0px;}
+	.content_div{text-align:center; padding:10px 10px 10px 20px; border:1px #AFEBFA  solid; margin:10px;}
+	.btn_div{text-align:center; padding:10px 100px 10px 0px; border:1px #AFEBFA  solid; margin:10px;}
+.layout {border-bottom:4px solid #DEEFFA; padding-top:0px;margin:0px 8px;}
+#layoutbasic {padding-bottom:4px;margin:0px 5px;}
+	#layoutbasic h3 {color:#09D; font-size:14px; font-weight:bold; margin:5px 0 0 0; padding:0px 0 0 10px; float:left; clear:left;}
+#layoutbasic ul {margin:0; padding:0px 20px; list-style:none; float:right; clear:right; text-align:right;}
+#layoutbasic ul li {height:24px; line-height:24px; float:left;}
+#layoutbasic ul li a:link, #layoutbasic ul li a:visited { color:#666; text-decoration:none; padding:0 6px;}
+#layoutbasic ul li a:hover {text-decoration:underline; color:#06A;}
+#layoutbasic ul li.current {background:url(/public/images/admin/bg_action_btn.gif) no-repeat; margin-right:3px;}
+#layoutbasic ul li.current a {background:url(/public/images/admin/bg_action_btn_round.gif) right no-repeat;}
+#layoutbasic ul li.current a:link, #layoutbasic ul li.current a:visited {color:#FFF; display:block;}
+#layoutbasic ul li.current a:hover {text-decoration:none;}
+
+
+.footer{}
+	.footer .copyright{ position:static; margin-top:120px; border:none; text-align:center; font-size:12px; }
+	.footer p{ display:inline; }
+

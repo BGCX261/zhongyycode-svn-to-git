@@ -1,0 +1,16 @@
+._table th, ._table td {height:30px; padding:0 1px;}
+
+._table th._col {background:#DFDFDF; color:#333; border:1px solid #AAA; border-width:1px 1px 1px 0; text-align:left;}
+._table th._currCol {background:#C1CBD2;}
+._table th._row {background:#DFDFDF; color:#333; border:1px solid #AAA; border-width:0 1px 1px 1px; width:25px; text-align:center; font-size:10px;}
+._table th._currRow {background:#C1CBD2;}
+._table th._cross {background:#DFDFDF; border:1px solid #AAA;}
+._table td {border:1px solid #DDD; border-width:0 1px 1px 0; text-align:left; color:#333; overflow:hidden;}
+._table td input.text, ._table td input.money, ._table td input.number, ._table td input.integer {width:100%; border:none; background:none; padding:0;}
+._table td input.money, ._table td input.number, ._table td input.integer {text-align:right;}
+._table td select {width:100%;}
+._table td.editing {background:#FFE0F0; color:#000;}
+
+._tips {font-size:14px; color:#FFF; font-weight:bold; margin-top:5px;}
+._preview {border:1px solid #DFDFDF; padding:1px; margin:3px;}
+._preview img {display:block; width:50px; overflow:hidden;}

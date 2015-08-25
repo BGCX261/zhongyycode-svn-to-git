@@ -1,0 +1,40 @@
+/**
+ * 商品列表/搜索页样式
+ *
+ * @author     Akon(番茄红了) <aultoale@gmail.com>
+ * @copyright  Copyright (c) 2008-2009 (http://www.imeelee.com/)
+ */
+
+/**
+ * 侧栏
+ */
+#sidebar-right {width:200px; float:right; clear:right; margin-top:15px;}
+.sidebox {border:1px solid #F9D7E5; border-bottom:none; clear:both;}
+.sidebox .top {background:url(/v3/images/bg_detail_box.gif) repeat-x; border-bottom:1px solid #F9D7E5;}
+.sidebox .top h4 {font-size:12px; color:#C91657; background:url(/v3/images/icon_arrow_2.gif) 7px 6px no-repeat; +background-position:7px 5px; padding-left:26px; margin:1px 0 0 0; height:25px; line-height:25px;}
+.sidebox .main {padding:6px 10px;}
+/* 浏览历史 */
+.history {border-bottom:1px solid #F9D7E5;}
+.history .top a {display:block; position:absolute; width:40px; margin:-22px 0 0 165px; height:20px; text-decoration:underline;}
+.history .items {clear:both; margin:8px 0;}
+.history .items .img {border:1px solid #DBDBDB; background:#FFF; text-align:center; width:60px; height:60px; float:left; overflow:hidden;}
+.history .items .name, .history .items .price {width:108px; float:right; height:26px; line-height:26px; overflow:hidden; color:#666;}
+.history .items .name {margin-top:3px;}
+/* 广告位 */
+.advert {margin-top:10px;}
+.advert p {margin-bottom:10px;}
+
+/**
+ * 主体
+ */
+#main-left {background:url(/v3/images/bg_notfound.jpg) no-repeat; width:615px; float:left; clear:left; margin-top:15px; padding-left:120px;}
+.option-list {clear:both; margin-bottom:15px;}
+.option-list h4 {font-size:14px; margin:0; padding:0 0 3px 15px; background:url(/v3/images/icon_arrow_6.gif) 0 7px no-repeat; +background-position:0 2px; border-bottom:1px dashed #CCC;}
+.option-list ul {margin:0 10px; padding:0; list-style:none;}
+/* 搜索条件 */
+.condition ul li {float:left; border:1px solid #CCEDFF; padding:2px 3px 1px 8px; +padding:3px 3px 2px 8px; background:#F1FAFF; margin:10px 10px 0 0; color:#F60; white-space:nowrap;}
+.condition ul li a.cancel {margin:0; padding:0 5px; cursor:pointer;}
+
+#main-left table th {font-weight:normal; line-height:28px;}
+#main-left table td {color:#666}
+#main-left table select {color:#666;}

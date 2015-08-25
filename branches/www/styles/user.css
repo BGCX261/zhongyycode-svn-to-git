@@ -1,0 +1,6 @@
+.main p {height:25px; line-height:25px;}
+.number {font:16px Georgia, "Times New Roman", Times, serif; font-weight:bold; font-style:normal; margin:0 10px 0 5px; color:red;}
+
+.tablegrid {}
+.tablegrid tr th {color:#333; font-weight:bold; border-bottom:1px dashed #FFCBDC; padding:5px 0;}
+.tablegrid tr td {color:#555; border-bottom:1px dashed #FFCBDC; padding:3px 0;}

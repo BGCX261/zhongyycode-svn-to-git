@@ -1,0 +1,94 @@
+/**
+ * 问答通用样式
+ *
+ * @author     Akon(番茄红了) <aultoale@gmail.com>
+ * @copyright  Copyright (c) 2008 (http://www.imeelee.com)
+ */
+
+/*********************************************************
+ * 顶栏
+ *********************************************************/
+#middleBar {border:1px solid #FFCBDC; height:73px; background:url(/images/bg_middle_bar.jpg) no-repeat; margin:5px 0;}
+#middleBar input.text {width:230px; height:20px; line-height:20px; margin-bottom:5px;color:#999;}
+#middleBar input.texthover {color:#333;}
+#middleBar .askPanel {height:36px; line-height:36px; width:260px; background:url(/images/bg_ask_panel.jpg) no-repeat; overflow:hidden; text-align:center;}
+#middleBar .total, #middleBar .already {display:block; padding-left:35px; margin-left:5px; line-height:26px; color:#666;}
+#middleBar .total {background:url(/images/icon_total.gif) no-repeat;}
+#middleBar .already {background:url(/images/icon_already.gif) no-repeat;}
+
+#quizForm {display:none;width:300px;padding:0 5px;}
+#TB_ajaxContent p {margin:5px}
+#TB_ajaxContent .top {color:#F60; font-size:14px; font-weight:bold; margin-top:10px;}
+#TB_ajaxContent .bottom {margin-bottom:0;}
+
+/*********************************************************
+ * 侧栏
+ *********************************************************/
+#sidebar {width:235px; float:right; clear:right; overflow:hidden; text-align:left;}
+#innserSidebar {}
+.sidebox {border:1px solid #FFCBDC; margin-top:10px; clear:both; background:url(/images/bg_box.png) repeat-x; padding:0 10px;}
+.sidebox .sTop {background:url(/images/icon_top.gif) 0 7px no-repeat; height:28px; line-height:28px; padding:0 0 0 15px; color:#06a; border-bottom:1px solid #FFCBDC;}
+.sidebox .sTop h4 {font-size:14px; margin:0; padding:0; width:146px; float:left; +padding-top:1px;}
+.sidebox .sTop .more {display:block; width:50px; float:right; line-height:28px; text-align:right; margin-top:-20px;}
+.sidebox .sMain {padding:5px 0; clear:both;}
+.sidebox .sBottom {clear:both; +height:10px;}
+
+/* 公告栏 */
+#noticeBoard {}
+#noticeBoard .sMain ul {margin:5px; padding:0; list-style:none;}
+#noticeBoard .sMain ul li {}
+#noticeBoard .sMain ul li a {display:block; background:url(/images/icon_arrow_1.gif) 5px 8px no-repeat; padding-left:15px; height:22px; line-height:22px; overflow:hidden;}
+#noticeBoard .sMain ul li a:hover {background-position:6px 9px;}
+#noticeBoard .sBottom {}
+
+/* 问题分类 */
+#category {}
+#category .sMain {padding:0;}
+#category .sMain ul {margin:5px 0 5px 5px; padding:0; list-style:none; clear:both;}
+#category .sMain ul h5 {font-size:12px; margin:0; padding:0;}
+#category .sMain ul h5 a {color:#D30; text-decoration:none; display:block; background:url(/images/icon_arrow_1.gif) 0 10px no-repeat; line-height:24px; padding-left:10px;}
+#category  ul h5 a:hover {color:#F30; text-decoration:underline; background-position:1px 11px;}
+#category .sMain ul li {width:99px; height:20px; line-height:20px; float:left; margin-left:5px; overflow:hidden;}
+#category .sMain ul li a {display:block;}
+#category .sMain ul li a:hover {background:none;}
+
+/* 小米总排行 */
+#topMillet {}
+#topMillet .sMain ul {margin:5px; padding:0; list-style:none; clear:both;}
+#topMillet .sMain ul li .rank {color:#FFF; font-size:11px; font-weight:bold; width:15px; margin-right:8px; text-align:center; background:url(/images/bg_rank.gif) 0 3px no-repeat; display:block; float:left; clear:left;}
+#topMillet .sMain ul li .uname { display:block; width:130px !important; width:124px; float:left; overflow:hidden;}
+#topMillet .sMain ul li .points {display:block; width:50px; text-align:right; float:right; clear:right;}
+
+/* 品牌全知道 */
+#brands {}
+#brands .sMain ul {margin:5px; padding:0; list-style:none;}
+#brands .sBottom {}
+
+/* 其它热点 */
+#otherHot {}
+#otherHot .sMain ul {margin:5px; padding:0; list-style:none;}
+#otherHot .sMain ul li {width:98px; float:left;}
+#otherHot .sMain ul li a {display:block; background:url(/images/icon_dot.gif) 5px 8px no-repeat; padding-left:15px; height:22px; line-height:22px; overflow:hidden;}
+#otherHot .sMain ul li a:hover {background-position:6px 9px;}
+#otherHot .sBottom {}
+
+/*********************************************************
+ * 主体
+ *********************************************************/
+#main {width:730px; float:left; clear:left; overflow:hidden;}
+#innerMain {}
+.mainbox {border:1px solid #FFCBDC; margin-top:10px; background:url(/images/bg_box.png) repeat-x; padding:0 0px; text-align:left; clear:both;}
+.mainbox .top {border-bottom:1px solid #FFCBDC; height:28px; line-height:28px; padding:0 10px 0 25px; color:#06a;}
+.mainbox .top h4 {font-size:14px; margin:0; padding:0; width:600px; float:left; +padding-top:1px;}
+.mainbox .top .more {display:block; width:50px; float:right; line-height:28px; text-align:right; padding-top:8px;}
+.mainbox .main {clear:both; padding:10px 0;}
+.mainbox .bottom {clear:both;}
+.mainbox .main ul {margin:0 5px 5px 5px; padding:0; list-style:none;}
+.mainbox .main ul li {line-height:26px; font-size:14px;}
+.mainbox .main ul li a.cate {color:#666;}
+.mainbox .main ul li a.cate:hover {color:#F30;}
+.mainbox .main ul li a.qst {}
+.mainbox .main ul li .author {font-size:12px;}
+.mainbox .main ul li span {color:#999;}
+.mainbox .main ul li em {font:11px Arial; color:#AAA;}
+sup.points {color:red; font-size:11px; font-family:Verdana;}

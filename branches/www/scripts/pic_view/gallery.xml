@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gallery>
+
+<options>
+    <backgroundColor>000000</backgroundColor>
+
+    <imageWidth>900</imageWidth>
+    <imageHeight>500</imageHeight>
+    <imageSpaceX>1000</imageSpaceX>
+    <imageSpaceY>800</imageSpaceY>
+    <imageBorderColor>FFFFFF</imageBorderColor>
+    <imageBorder>20</imageBorder>
+
+    <imageSmoothing>no</imageSmoothing>
+    <explanation>yes</explanation>
+    <name>YOUR NA2ME</name>
+</options>
+
+<pictures>
+    <album name = "flashden pictures">
+        <pic>
+        <bigimage>images/pic6.jpg</bigimage>
+        <info title="Title of picture 1" desc="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent fermentum. Nam sagittis. Ut eget velit pretium ligula molestie consequat. Cras vel ante vitae libero vestibulum bibendum. Cras et turpis et pede auctor porta. Nullam pede. Nullam cursus velit sit amet velit. Etiam at enim. Sed sollicitudin faucibus augue. Mauris ornare nunc eu nisi." link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>/scripts/images/pic32.jpg</bigimage>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic8.jpg</bigimage>
+        <info link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic9.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic10.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic11.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic12.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic13.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic14.jpg</bigimage>
+        <info title="title" desc="description"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic15.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic16.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic17.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic33.jpg</bigimage>
+        <info link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic34.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic20.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic4.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic21.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic1.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic23.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic24.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic25.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic26.jpg</bigimage>
+        <info link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic27.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic28.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic29.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic16.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic17.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic33.jpg</bigimage>
+        <info link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic34.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic20.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic4.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic21.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic1.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic23.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic24.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic25.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic26.jpg</bigimage>
+        <info link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic27.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic28.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic29.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+    </album>
+
+    <album name = "various pictures">
+        <pic>
+        <bigimage>images/pic31.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic32.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic33.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic34.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic21.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic4.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic23.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic24.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic13.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/pic14.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+    </album>
+
+    <album name = "photography">
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+
+        <pic>
+        <bigimage>images/cool.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/kikker.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+
+        <pic>
+        <bigimage>images/bestek.jpg</bigimage>
+        <info title="title" desc="description" link="http://www.zunamo.com"/>
+        </pic>
+    </album>
+</pictures>
+
+</gallery>

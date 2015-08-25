@@ -1,0 +1,121 @@
+/**
+ * 前台显示通用样式
+ *
+ * @author     Akon(番茄红了) <aultoale@gmail.com>
+ * @copyright  Copyright (c) 2008-2009 (http://www.imeelee.com/)
+ */
+body {color:#000; font:12px Tahoma, Arial, Verdana; text-align:center; margin:0; padding:0; line-height:180%;}
+img {border:none;}
+form, table, input, select, textarea {margin:0; font:12px Tahoma, Arial, Verdana; color:#000;}
+fieldset {border:1px solid #DADDEC; padding:5px 10px; margin:5px 0; display:block;}
+fieldset legend {font-size:14px; font-weight:bold; color:#F60; padding:0 5px;}
+p {margin:12px 0;}
+small {font-size:11px;}
+a {color:#04C; text-decoration:none;}
+a:hover {color:#F40; text-decoration:underline;}
+
+/* 通用类 */
+.tips {color:gray;}
+.highlight {background:#FF0;color:#E00}
+.clearfloat {height:0px; overflow:hidden; clear:both; float:none; display:block;}
+
+/* input text*/
+input.text {border:1px solid #AAA; color:#333; padding:2px 2px 0 2px; background:#FFF; height:18px; line-height:18px;}
+input.texthover {border-color:#777; color:#000;}
+
+/* input button/submit */
+input.button {height:21px; +line-height:20px !important; +line-height:16px; padding:0 5px; +padding:0 3px; border:1px solid #FFF; +border:1px solid #9EB0BC; margin-left:1px; outline: 1px solid #9EB0BC; background:#FFF url(/images/bg_btn.gif) scroll left center repeat-x;}
+input.buttonhover {}
+input.btn-1,
+input.btn-2,
+input.btn-3,
+input.btn-4,
+input.btn-5,
+input.btn-6,
+input.btn-7,
+input.btn-8,
+input.btn-9,
+input.btn-10 {background:#FFF url(/images/bg_button.gif) no-repeat; border:none; outline:none; text-align:center; color:#FFF; overflow:hidden;}
+input.btn-1,
+input.btn-2,
+input.btn-3,
+input.btn-4 {height:21px; padding:0 0 5px 0; +padding:3px 0 0 0 !important; +padding:0;}
+input.btn-1 {width:45px;}
+input.btn-2 {background-position:-45px 0; width:63px;}
+input.btn-3 {background-position:0 -21px; width:45px; color:#333;}
+input.btn-4 {background-position:-45px -21px; width:63px; color:#333;}
+input.btn-5,
+input.btn-6,
+input.btn-7 {height:25px; +padding-top:4px !important; padding-top:0; font-weight:bold;}
+input.btn-5 {background-position:0 -42px; width:50px;}
+input.btn-6 {background-position:-50px -42px; width:78px;}
+input.btn-7 {background-position:-128px -42px; width:104px;}
+input.btn-8,
+input.btn-9,
+input.btn-10 {height:24px; padding-bottom:3px; +padding-bottom:0; +padding-top:3px !important; padding-top:0; font-weight:bold;}
+input.btn-8 {background-position:0 -67px; width:50px;}
+input.btn-9 {background-position:-50px -67px; width:78px;}
+input.btn-10 {background-position:-128px -67px; width:104px;}
+
+
+/* textarea */
+textarea {padding:2px; border:1px solid #AAA; background:#FFF; color:#333; overflow:auto;}
+textarea.textareahover {border-color:#777; color:#000;}
+
+/* @only firefox/opera/ie7+ */
+input.text[disabled] {border-color:#AAA; background:#EFEFEF; color:#666;}
+input.button[disabled] {border-color:#999; background:#EEE; color:#AAA;}
+textarea[disabled] {border-color:#AAA; background:#EFEFEF; color:#666;}
+
+/* 数据表格 */
+.tablegrid {}
+.tablegrid tr th {color:#333; font-weight:bold; border-bottom:1px solid #DADDEC; padding:5px 0;}
+.tablegrid tr td {color:#555; border-bottom:1px dashed #DADDEC; padding:1px 0;}
+
+/* 分页样式 */
+.pagination {clear:both; font-weight:normal;}
+.pagination a {background:#FFF; color:#06e; border:1px solid #DDDDDD; padding:2px 7px; text-decoration:none;}
+.pagination a:hover {background:#F30; color:#FFF; text-decoration:none;}
+.pagination .pageCurrentItem {color:#F30; font-weight:bold; padding:2px 7px;}
+.pagination .pagePrev, .pagination .pageNext {+padding:2px 7px 0 7px;}
+
+/* 简洁分页样式 */
+.simplePagination {clear:both; font-weight:normal;}
+.simplePagination a {background:#FFF; color:#06e; border:1px solid #DDDDDD; padding:2px 7px; text-decoration:none;}
+.simplePagination a:hover {background-color:#F30; color:#FFF; text-decoration:none;}
+.simplePagination .pageCurrentItem {color:#F30; font-weight:bold; background:none; border:none; padding:2px 7px;}
+.simplePagination .pagePrev {background:url(/images/bg_page_prev1.gif) center center no-repeat;}
+.simplePagination .pagePrev:hover {background-image:url(/images/bg_page_prev2.gif);}
+.simplePagination .pageNext {background:url(/images/bg_page_next1.gif) center center no-repeat;}
+.simplePagination .pageNext:hover {background-image:url(/images/bg_page_next2.gif);}
+
+/* 简单分页样式 */
+.smallPagination {clear:both; font-weight:normal; padding:1px;}
+.smallPagination span.text {}
+.smallPagination a {border:1px solid #D4D4D4; padding:1px 3px;}
+.smallPagination a:hover {background:#F30; color:#FFF; text-decoration:none;}
+.smallPagination a.pagePrev span {margin-left:2px;}
+.smallPagination a.pageNext span {margin-right:2px;}
+.smallPagination a.noPrev, .smallPagination a.noNext {border:1px solid #D4D4D4; color:#999; background:#FAFAFA; +padding:1px 3px 2px 3px;}
+.smallPagination a.noPrev span, .smallPagination a.noNext span {display:none;}
+
+/* Thickbox 窗口样式 */
+.tb-top {margin-bottom:10px; border-bottom:1px solid #AAA;}
+.tb-top h4 {margin:0; padding:0; color:#000; height:25px; line-height:25px; font-size:14px;}
+.tb-content a {color:#04C; text-decoration:underline;}
+
+/* jqModal 样式 */
+.jqmTop {background:#FFA95E; color:#FFF; height:30px; line-height:30px; cursor:move;}
+.jqmTop h4 {margin:0 0 0 5px; font-size:14px; padding-top:2px;}
+.jqmTop .jqmClose {display:block; position:absolute; width:13px; height:13px; overflow:hidden; right:8px; top:8px; background:url(/images/icon_close2.gif) no-repeat;}
+.jqmTop .jqmClose:hover {background-image:url(/images/icon_close3.gif);}
+.jqmMain {margin:5px 5px 10px 5px;}
+
+/* 登录框 */
+#login-dialog {width:420px;}
+#login-dialog form {margin:10px 0;}
+#login-dialog .message {border:1px solid #DD3C10; border-width:1px 0; background:#FFEBE8 url(/images/icon/exclamation.gif) 10px 8px no-repeat; color:#DD3C10; height:30px; line-height:30px; padding-left:33px; +padding-top:3px; margin:0 15px 10px 15px; display:none;}
+#login-dialog .loading {background-image:url(/images/ajax-loading.gif); color:#666;}
+#login-dialog table td {padding:6px 0;}
+#login-dialog input {margin-right:10px;}
+#login-dialog label {color:#999;}

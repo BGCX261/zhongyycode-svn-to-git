@@ -1,0 +1,33 @@
+/* jqModal base Styling courtesy of;
+    Brice Burgess <bhb@iceburg.net> */
+
+/* The Window's CSS z-index value is respected (takes priority). If none is supplied,
+    the Window's z-index value will be set to 3000 by default (via jqModal.js). */
+
+.jqmWindow {
+    position:fixed;
+    display: none;
+    width: 400px;
+    background: #FFF;
+    color: #F00;
+    border: 6px solid #555;
+    text-align:left;
+}
+
+.jqmOverlay { background-color: #000; }
+
+/* Background iframe styling for IE6. Prevents ActiveX bleed-through (<select> form elements, etc.) */
+* iframe.jqm {position:absolute;top:0;left:0;z-index:-1;
+    width: expression(this.parentNode.offsetWidth+'px');
+    height: expression(this.parentNode.offsetHeight+'px');
+}
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {
+     position: absolute;
+     top: expression(Math.round((document.documentElement.scrollTop || document.body.scrollTop) + ((document.documentElement.offsetHeight || document.body.clientHeight) - this.clientHeight) / 3) + 'px');
+}
+.jqmTop{padding:0 5px;}
+#login-dialog .message{background:url("/images/icon/exclamation.gif") no-repeat scroll 10px 2px #FFF1F6;border:1px solid #F9BACF; color:#EE0000; margin:0 15px 10px; padding:3px 10px 2px 30px;display:none;}

@@ -1,0 +1,10 @@
+
+#__tips {
+    background:#666;
+    color:#FFF;
+    border:1px solid #AAA;
+    padding:3px 6px;
+    display:none;
+	min-width:50px;
+	text-align:left;
+}

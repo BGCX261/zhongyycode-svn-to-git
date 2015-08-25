@@ -1,0 +1,53 @@
+<chart caption=' ' subCaption='流量统计' numberSuffix='MB' formatNumberScale='1' rotateValues='1' placeValuesInside='1' decimals='0' outCnvbaseFontSize='12' >
+<categories>
+<category label='8/8'/>
+<category label='8/9'/>
+<category label='8/10'/>
+<category label='8/11'/>
+<category label='8/12'/>
+<category label='8/13'/>
+<category label='8/14'/>
+<category label='8/15'/>
+<category label='8/16'/>
+<category label='8/17'/>
+<category label='8/18'/>
+<category label='8/19'/>
+<category label='8/20'/>
+<category label='8/21'/>
+<category label='8/22'/>
+</categories>
+<dataset seriesname='流量'>
+<set value='0'/>
+<set value='0'/>
+<set value='0.75'/>
+<set value='0.07'/>
+<set value='0.25'/>
+<set value='4.17'/>
+<set value='79.23'/>
+<set value='3.87'/>
+<set value='0.5'/>
+<set value='2048'/>
+<set value='12.56'/>
+<set value='0.26'/>
+<set value='32.07'/>
+<set value='2048'/>
+<set value='5.81'/>
+</dataset>
+<dataset seriesName='访问次数' parentYAxis='S'>
+<set value='1'/>
+<set value='2'/>
+<set value='42'/>
+<set value='1'/>
+<set value='8'/>
+<set value='26'/>
+<set value='1222'/>
+<set value='74'/>
+<set value='10'/>
+<set value='400'/>
+<set value='47'/>
+<set value='20'/>
+<set value='293'/>
+<set value='899'/>
+<set value='210'/>
+</dataset>
+</chart>

@@ -1,0 +1,46 @@
+/**
+ * 信息反馈页样式
+ *
+ * @author     Akon(番茄红了) <aultoale@gmail.com>
+ * @copyright  Copyright (c) 2008-2009 (http://www.imeelee.com/)
+ */
+
+body {background:#FFF url(/v3/images/bg_bar.gif) top repeat-x;}
+
+/**
+ * 页面层包装
+ */
+#wrapper {width:950px; margin:0 auto; text-align:left;}
+
+/**
+ * 顶部
+ */
+#topbar {line-height:30px; height:30px; margin-bottom:30px;}
+#topbar .right {text-align:right;}
+#topbar .right ul {margin:0; padding:0; list-style:none; float:right;}
+#topbar .right ul li {margin:0; padding:0; float:left;}
+#topbar .right ul li.sep {height:12px; width:1px; background:#999; margin:11px 10px 0 10px; +margin-top:9px;}
+#topbar .right ul li a.center {background:url(/v3/images/icon_down1.gif) no-repeat right; padding-right:12px; display:block;}
+#topbar .right ul li a.help {cursor:help;}
+#topbar .right ul.center-menu {display:none; position:absolute; float:none; text-align:left; background:#FFF; border:1px solid #888; padding:5px 8px; width:60px;}
+#topbar .right ul.center-menu li {float:none; line-height:22px; height:22px;}
+#logo {width:400px; float:left;}
+#navigation {width:500px; float:right; text-align:right; color:#999; margin:35px 0 5px 0;}
+#navigation span {margin:0 8px;}
+
+/**
+ * 主体
+ */
+#mainbody {border:1px solid #CA1558; padding:15px 25px 25px 25px; overflow:hidden;}
+#mainbody h4.title {font-size:14px; margin:0 0 25px 0; padding-bottom:5px; border-bottom:1px dashed #D0D0D0;}
+.image {width:90px; text-align:center; float:left; margin-top:10px;}
+.content {width:790px; text-align:left; float:right;}
+.content ul {margin:5px 0 10px 0; padding:0; list-style:none;}
+.content ul li {background:url(/v3/images/icon_arrow_4.gif) 0 9px no-repeat; padding-left:15px; margin-left:10px; line-height:25px;}
+#shadow {height:3px; background:#CA1558; overflow:hidden; margin:0 5px;}
+
+/**
+ * 底部
+ */
+#footer {margin-top:10px; text-align:center;}
+#footer p {margin:2px 0 2px 0; line-height:160%;}

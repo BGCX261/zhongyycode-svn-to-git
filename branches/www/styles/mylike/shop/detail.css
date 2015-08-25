@@ -1,0 +1,131 @@
+/**
+ * 商品详情页样式
+ *
+ * @author     Akon(番茄红了) <aultoale@gmail.com>
+ * @copyright  Copyright (c) 2008-2009 (http://www.imeelee.com/)
+ */
+
+/**
+ * 商品基本信息
+ */
+#goods-basic {margin-top:2px; background:url(/v3/images/bg_detail.jpg) top repeat-x; padding-top:18px;}
+#goods-basic .image {width:275px; border:1px solid #DDD; padding:1px; margin:3px 20px 0 0; float:left; overflow:hidden;}
+#goods-basic .info {width:650px; float:right;}
+#goods-basic .info h2 {margin:0 0 15px 0; +margin-top:1px; padding:0 0 2px 0; font-size:14px; color:#000; border-bottom:1px dashed #DFDFDF;}
+#goods-basic .info .clicks {float:right; color:#999999;}
+#goods-basic .info .favorite {display:block; width:60px; height:23px; position:absolute; margin:-5px 0 0 590px;}
+#goods-basic .info .intro {margin:0; padding:0; list-style:none; width:250px; float:left;}
+#goods-basic .info .intro li {line-height:25px; color:#333;}
+#goods-basic .info .intro li span {margin-right:5px; color:#888;}
+#goods-basic .info .intro li img {margin:0 1px;}
+#goods-basic .info .intro li a.current {color:#F40; font-weight:bold;}
+#goods-basic .info .intro li em {font-style:normal;}
+#goods-basic .other {width:382px; float:right; padding:0 0 5px 15px; border-left:1px dashed #DFDFDF;}
+#goods-basic .other p {margin:0; line-height:22px;}
+#goods-basic .other p.fav {margin:10px 0;}
+#goods-basic .other .price {margin-bottom:5px;}
+#goods-basic .other .price .sale {font-size:14px;}
+#goods-basic .other .price .sale em {font-style:normal; font-weight:bold; font-size:20px; margin-right:4px; color:#E00;}
+#goods-basic .other .price .market {margin-left:8px; color:#999;}
+#goods-basic .other .price .market em {font-style:normal; text-decoration:line-through; margin-right:2px;}
+#goods-basic .other .rank a {color:#D00;}
+#goods-basic .other .desc {color:#333;}
+#goods-basic .other .tips {margin:8px 0 13px 0; border:1px solid #FAB9CF; background:#FFF9FB; padding:8px 10px; line-height:160%; color:#555;}
+#goods-basic .other .buy {margin:8px 0 0 0;}
+#goods-basic .opera {margin:17px 0 0 0; padding:0 8px 0 15px; list-style:none; background:#F9F9F9; border:1px solid #D0D0D0; line-height:35px; height:35px; clear:both; overflow:hidden;}
+#goods-basic .opera li {width:190px; float:left; background:url(/v3/images/icon_arrow_4.gif) 0 13px no-repeat; +background-position:0 12px; padding-left:15px;}
+#goods-basic .opera li a {color:#666;}
+
+/**
+ * 商品详情/问答/购买记录 TABS
+ */
+#goods-detail {margin-top:20px;}
+#goods-detail .jquery-tabs {clear:both; margin:0; padding:0 0 0 20px; list-style:none; height:26px; background:url(/v3/images/bg_detail_border.gif) repeat-x;}
+#goods-detail .jquery-tabs li {float:left; background:url(/v3/images/bg_detail_tab.gif) no-repeat; padding:0 5px; +padding-top:2px; margin-left:8px; width:80px; height:26px; line-height:26px; display:block; overflow:hidden; text-align:center;}
+#goods-detail .jquery-tabs li.current {background:url(/v3/images/bg_detail_tab_sel.gif) no-repeat;}
+#goods-detail .jquery-tabs li a {display:block;}
+#goods-detail .tabs-div {margin:15px 5px 0 5px; line-height:180%; height:0; overflow:hidden;}
+/* 商品详情 */
+#details {}
+#details .brand-info, #details .brand-shadow {position:absolute; width:250px; margin:0 0 0 655px; border:1px solid #FAB9CF; background:#FFF6F9; color:#444; padding:5px 15px 15px 15px; z-index:10;}
+#details .brand-info h4 {margin:0 0 5px 0; padding:0; font-size:14px; color:#000;}
+#details .brand-shadow {margin:5px 0 0 661px; border:none; background:#DDD; padding-top:6px; z-index:9; opacity:0.7; filter:alpha(opacity=70);}
+#details .content, #details .content table {font-size:12px; color:#333; line-height:170%;}
+#details .content .desc {min-height:300px;}
+#details .buy-tips {border:1px solid #D2D2D2; background:#F9F9F9 url(/v3/images/icon_info.gif) 15px 18px no-repeat; margin:10px 0; padding:10px 10px 10px 85px; color:#666; line-height:160%;}
+/* 商品问答 */
+#service {margin-top:0;}
+.question-list {margin:10px 0;}
+.question-list .info {border-bottom:1px solid #666; margin-bottom:5px;}
+.question-list .info .author {padding-left:25px; background:url(/v3/images/icon/help.gif) 5px 0 no-repeat;}
+.question-list .info .time {font-size:11px; color:#999; margin-left:5px;}
+.question-list .question {color:#000; padding:5px 5px 0 5px;}
+.question-list .answer {border-top:1px dashed #CCC; margin:5px 0; padding:8px; color:#666; background:#F9FBFF;}
+.question-list .answer strong {padding:3px 0 0 25px; background:url(/v3/images/icon/user_comment.gif) 3px 0 no-repeat; color:#F30;}
+#service .pagination {text-align:right;}
+#service .post-question {margin-bottom:20px;}
+#service .post-question form {background:#FAFAFA; border:1px solid #EFEFEF; padding:5px 15px;}
+
+/**
+ * 用户点评
+ */
+#comments {margin:10px 0 25px 0;}
+#comments .top {border-bottom:1px solid #D8D8D8;}
+#comments .top h4 {margin:0 0 3px 0; font-size:14px; color:#CD1659; background:url(/v3/images/icon_arrow_2.gif) 0 5px no-repeat; +background-position:0 3px; padding-left:20px;}
+#comments .top h4 span {margin-left:3px; font-size:12px; font-weight:normal; color:#666;}
+/* 左栏 */
+#comments .left {width:690px; float:left;}
+#comments .left .view-all {position:absolute; margin:-22px 0 0 590px; width:100px; text-align:right;}
+#comments .left .smallPagination {position:absolute; margin:-27px 0 0 440px; width:250px; text-align:right; float:right; color:#666;}
+/* 评分详情 */
+#score-detail {margin:10px 0 20px 0; +margin-bottom:10px;}
+#score-detail .score-list {width:200px; height:142px; margin:10px 20px 0 5px; overflow:hidden; border-right:1px dashed #DDD; float:left;}
+#score-detail .score-list img {margin:0 1px;}
+#score-detail .score-avg {text-align:center; margin-top:10px; padding:10px 20px 0 0; width:190px; float:left; border-right:1px dashed #DDD; height:132px; overflow:hidden;}
+#score-detail .score-avg .number {font-weight:bold; font-size:45px; color:#F60; margin:25px 0;}
+#score-detail .score-avg .tips {margin:10px 0; color:#999;}
+#score-detail .score-opera {text-align:center; padding-top:60px;}
+#score-detail .service {text-align:center; padding-top:15px;}
+/* 评论 TABS */
+#comment-tabs {margin:5px 0 0 0; padding:0 0 0 5px; list-style:none; width:690px; height:23px; +height:24px; border-bottom:1px solid #DDD;}
+#comment-tabs li {float:left; margin:2px 5px 0 5px; background:#E4E4E4; +padding-top:2px;}
+#comment-tabs li a {color:#666; display:block; padding:0 10px;}
+#comment-tabs li.current {border:1px solid #E4E4E4; border-top:2px solid #FFB27F; border-bottom:none; margin-top:0; background:#FFF;}
+#comment-tabs li.current a {color:#000; font-weight:bold;}
+/* 评论列表 */
+.comment-item {width:690px; clear:both; margin:15px 0;}
+.comment-item .avatar {margin:0; width:50px; height:50px; float:left;}
+.comment-item .info {width:630px; float:right; padding-left:5px; background:#F5F5F5; border-top:1px solid #D9D9D9;}
+.comment-item .info span {margin:0 5px 0 0;}
+.comment-item .info .floor {position:absolute; display:block; +margin-top:-3px; margin-left:590px; color:#666;}
+.comment-item .info .author {color:#666;}
+.comment-item .info .time {color:#999; font-size:11px;}
+.comment-item .info .act small {font-size:11px; color:gray;}
+.comment-item .score {background:#F5F5F5; padding-bottom:2px; width:630px; float:right; padding-left:5px;}
+.comment-item .score .span {margin-right:5px;}
+.comment-item .score .rating img {margin:0 1px 3px 1px;}
+.comment-item .score .skin {color:#666;}
+.comment-item .score .detail a {color:#666; background:url(/v3/images/icon_down2.gif) right no-repeat; padding-right:12px;}
+.comment-item .score .detail a:hover {color:#F60;}
+.comment-item .score-detail {display:none; position:absolute; border:1px solid #888; background:#FFF; padding:5px; width:160px; margin:0;}
+.comment-item .score-detail img {margin:0 1px;}
+.comment-item .content {margin-top:3px; color:#333; width:630px; float:right; padding-left:5px;}
+.comment-item .content blockquote {background:url(/v3/images/bg_quote.gif) no-repeat; margin:5px; padding:0 0 0 18px; color:#aaa;}
+.comment-item .edit-content {display:none;}
+.comment-item .reply-form, .comment-item .edit-form {margin:5px 0 0 5px; width:630px; float:right;}
+.comment-item .reply-form p, .comment-item .edit-form p {margin:5px 0;}
+.comment-item .reply-form p.title {margin-bottom:2px; color:#666;}
+/* 发表点评 */
+.score-rating img {cursor:pointer; margin-right:2px;}
+/* 右栏 */
+#comments .right {width:245px; float:right;}
+/* 推荐商品 */
+#comments .right .box {border:1px solid #F9D7E5; margin-top:15px;}
+#comments .right .box .top {background:url(/v3/images/bg_detail_box.gif) repeat-x; border-bottom:1px solid #F9D7E5;}
+#comments .right .box .top h4 {font-size:12px; color:#C91657; background:url(/v3/images/icon_arrow_2.gif) 7px 6px no-repeat; +background-position:7px 5px; padding-left:26px; margin:1px 0 0 0; height:25px; line-height:25px;}
+#comments .right .box .top a {display:block; position:absolute; width:40px; margin:-22px 0 0 205px; height:20px; text-decoration:underline;}
+#comments .right .box .main {padding:4px 12px;}
+#comments .right .box .main .items {clear:both; margin:8px 0;}
+#comments .right .box .main .items .img {border:1px solid #DBDBDB; background:#FFF; text-align:center; width:60px; height:60px; float:left; overflow:hidden;}
+#comments .right .box .main .items .name, #comments .right .box .main .items .price {width:148px; float:right; line-height:140%; margin-top:2px;}
+#comments .right .box .main .items .price {color:#666; margin-top:4px;}

@@ -1,0 +1,20 @@
+/**
+ * 商城通用样式
+ *
+ * @author     Akon(番茄红了) <aultoale@gmail.com>
+ * @copyright  Copyright (c) 2008-2009 (http://www.imeelee.com/)
+ */
+
+/**
+ * 当前位置
+ */
+#location {color:#555; border-bottom:2px solid #CA1558;}
+#location .left {width:700px; overflow:hidden; float:left; line-height:22px;}
+#location .left strong {color:#000; font-weight:normal;}
+#location .left a {margin:0;}
+#location .left a.cate {background:url(/v3/images/icon/down.gif) right no-repeat; +background-position:right top; padding-right:18px; height:20px;}
+#location .left span.arrow {margin:0 3px; color:#000;}
+#location .right {width:250px; overflow:hidden; float:right; text-align:right; line-height:22px;}
+#location .cate-menu {display:none; position:absolute; background:#FFF; border:1px solid #888; margin:0; padding:8px 12px; list-style:none; width:210px; float:left; /*display:none;*/}
+#location .cate-menu li {width:33%; float:left;}
+#location .cate-menu li.current a {color:#F40; font-weight:bold;}

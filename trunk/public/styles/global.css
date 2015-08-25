@@ -1,0 +1,78 @@
+/**
+ * 管理后台通用样式表
+ *
+ * @author     Akon(番茄红了) <aultoale@gmail.com>
+ * @copyright  Copyright (c) 2008 (http://www.rsbuy.com)
+ */
+@charset "utf-8";
+
+body {margin:0; color:#333; font:12px "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif; background:#FFF url(/images/admin/bg_main_top.gif) repeat-x; text-align:left; margin:20px; line-height:160%;}
+img {border:none;}
+form, table, input, select, textarea {margin:0; font:12px "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;}
+h1, h2, h3, h4, h5, h6 {margin:0; padding:0;}
+label {display:block;margin:2px 0;}
+small {font:11px Tahoma, Verdana, Arial}
+
+/* input text*/
+input.text {padding:2px; border:1px solid #DEEFFA; color:#666; background:#FFFFFF;}
+input.texthover {border:1px solid #FFCCAA;}
+
+/* input button/submit */
+input.button {border:1px solid #82BCD3;  background:#F8F8FF; padding:0 3px 2px 3px; +padding:0 1px 0 1px; height:20px; +height:22px; line-height:22px; margin-right:1px; +margin-right:0;}
+input.buttonhover {background:#DEEFFA;}
+
+/* textarea */
+textarea{padding:2px 1px; border:1px solid #DEEFFA; background:#FFFFFF; color:#666; overflow:auto;}
+textarea.textareahover {border:1px solid #FFCCAA;}
+
+/* 超链接 */
+a:link, a:visited {color:#06A; text-decoration:none;}
+a:hover {text-decoration:none; color:#F00;}
+
+/* 清除浮动 */
+.clearfloat {height:0px; overflow:hidden; clear:both;}
+
+/* 分页样式 */
+.pagination {text-align:right; line-height:30px; height:30px; padding-right:5px;}
+.pagination .pageList {}
+    /* 当前页 */
+    .pageList .pageCurrentItem {font-weight:bold; color:#000000;}
+    /* 普通链接样式 */
+    .pageList a:link, .pageList a:visited {background:#FFFFFF; color:#333333; border:1px solid #B5CFD9; padding:1px 5px;}
+    .pageList a:hover {background:#0099CC; color:#FFFFFF;}
+    /* 页码样式 */
+    .pageList a.pageItem:link, .pageList a.pageItem:visited {}
+    .pageList a.pageItem:hover {}
+    /* 前往首页样式 */
+    .pageList a.pageFirst:link, .pageList a.pageFirst:visited {}
+    .pageList a.pageFirst:hover {}
+    /* 前往尾页样式 */
+    .pageList a.pageLast:link, .pageList a.pageLast:visited {}
+    .pageList a.pageLast:hover {}
+    /* 前往上页样式 */
+    .pageList a.pagePrev:link, .pageList a.pagePrev:visited {}
+    .pageList a.pagePrev:hover {}
+    /* 前往下页样式 */
+    .pageList a.pageNext:link, .pageList a.pageNext:visited {}
+    .pageList a.pageNext:hover {}
+.pagination .pageInfo {color:#333333;}
+.pagination .pageInfo .infoNumber {color:red; margin:0 3px; font-style:italic;}
+
+/* 顶部 */
+#header {}
+.layout {border-bottom:4px solid #DEEFFA;}
+
+/* 主体 */
+#tbody {padding:10px 0;}
+#tbody .tablegrid {}
+#tbody .tablegrid tr th {color:#333; font-weight:bold; border-bottom:1px dashed #DEEFFA; padding:5px 0;}
+#tbody .tablegrid tr td {color:#555; border-bottom:1px dashed #DEEFFA; padding:3px 0;}
+
+/* 底部 */
+#footer {margin-top:10px; border-bottom:4px solid #DEEFFA;}
+
+/* 调试信息 */
+#debuginfo {margin-top:10px;}
+#debuginfo em, #debuginfo i {color:red;}
+#debuginfo pre {margin:5px 0; padding:5px; border:1px dashed #E0E0E0; font:12px 'Courier New'; font-style:italic; color:#00AA00;}
+

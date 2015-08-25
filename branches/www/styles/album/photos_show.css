@@ -1,0 +1,57 @@
+#content { width:595px; float:left; }
+
+.photos { overflow:hidden; }
+    .photos .title { padding:0 5px; line-height:25px; }
+        .photos .title h2 { float:left; font-size:14px; color:#85C64E; margin-right:10px; }
+            .photos .title sup { display:inline; padding-top:5px; }
+        .photos .title .back { float:right; }
+            .photos .title .back a { margin-left:15px; }
+    .photos .pic { text-align:center; }
+        .photos .pic .img img { margin:20px auto 15px; }
+
+.comment { overflow:hidden; margin-top:5px; }
+    .comment .title { height:20px; line-height:20px; border-bottom:1px solid #85c64e; color:#85c64e; }
+        .comment .title h2 { float:left; font-size:14px; color:#85c64e; }
+        .comment .title sub { line-height:25px; font-size:13px; float:right; color:#85c64e; font-weight:bold; }
+
+#side { width:320px; float:right; }
+
+.mod_share_album .hd { margin:10px 30px 0; }
+    .mod_share_album .hd h2 { display:inline; }
+        .mod_share_album .hd h2 a { color:#50b004; }
+    .mod_share_album .hd .albums { margin-left:5px; }
+    .mod_share_album .hd .count { margin-left:10px; }
+    .mod_share_album .hd .time { float:right; *margin-top:-18px; }
+
+.quick_comments { margin-top:20px; }
+    .quick_comments .hd { padding:10px 0; }
+        .quick_comments .hd h2 { display:inline; font-size:14px; color:#51B105; }
+        .quick_comments .hd .submit { cursor:pointer; float:right; background:url(/images/album/img/icon.png) -367px 0 no-repeat; width:38px; height:19px; line-height:19px; border:none; color:#fff; }
+        .quick_comments .hd .submit:hover { font-weight:bold; }
+        .quick_comments .bd textarea { width:318px; height:43px; border:1px solid #C6C6C6; }
+
+.mood { margin-top:20px; }
+    .mood .hd { padding:10px 0; }
+        .mood .hd h2 { font-size:14px; color:#51b105; }
+    .mood .bd { text-align:center; overflow:hidden; }
+        .mood .bd .up { float:left; margin-left:60px;  }
+            .mood .bd .up a { color:#FE8B20; }
+        .mood .bd .down { float:right; margin-right:60px; }
+            .mood .bd .down a { color:#FE8B20; }
+        .mood .bd .count { padding-top:15px; clear:both; }
+                .mood .bd .count strong { color:#51b105; }
+            .mood .bd .count .comment { margin-right:10px; }
+
+.tags { margin-top:20px; }
+    .tags .hd { padding:10px 0; }
+        .tags .hd h2 { font-size:14px; color:#51b105; }
+        .tags .bd .title { color:#51b105; display:block; font-weight:normal; }
+        .tags .bd .text { width:258px; height:20px; border:1px solid #c6c6c6; margin-right:10px; }
+        .tags .bd .submit { cursor:pointer; background:url(/images/album/img/icon.png) -367px 0 no-repeat; width:38px; height:19px; line-height:19px; border:none; color:#fff; }
+        .tags .bd .submit:hover { font-weight:bold; }
+        .tags .bd p { margin-top:10px; }
+
+.other { margin-top:20px; }
+    .other .hd { padding:10px 0; }
+        .other .hd h2 { font-size:14px; color:#51b105; }
+        .other .bd span { display:block; }

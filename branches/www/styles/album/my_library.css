@@ -1,0 +1,51 @@
+#side { width:250px; float:left; }
+
+.button { height:30px; overflow:hidden; margin-top:5px; }
+    .button a { font-size:13px; display:block; color:#fff; float:left; margin-right:10px; width:97px; height:27px; background:url(/images/album/img/icon.png) -203px 0 no-repeat; text-align:center; line-height:27px; font-weight:bold; }
+    .button a:hover { font-size:14px; }
+
+.directory { margin-top:20px; }
+    .directory .hd { height:14px; background:url(/images/album/bg/side_hd1.png) no-repeat; text-align:center; position:relative; z-index:110; }
+    .directory .hd .title { width:100px; height:50px; position:absolute; top:1px; left:50%; margin-left:-50px; z-index:100; }
+        .directory .hd .title h2 { color:#83C74E; font-size:14px; border-top:4px solid #83C74E; }
+    .directory .bd { padding:30px 20px 10px 15px; background:url(/images/album/bg/side_bd1.png) repeat-y; z-index:80; }
+            .directory .bd .lists .li1 { background:url(/images/album/img/+.png) 0 5px no-repeat; padding-left:23px; position:relative; line-height:20px; }
+            .directory .bd .lists .li1:hover { background:url(/images/album/img/-.png) 0 5px no-repeat; }
+                .directory .bd .lists li:hover .a1 { font-weight:bold; }
+                    .directory .bd .lists .count { float:right; font-weight:normal; #margin-top:-20px; }
+                .directory .bd .lists .lists1 { display:none; }
+                    .directory .bd .lists .lists1 li { background:url(/images/album/img/jt.png) 0 center no-repeat; padding-left:15px; }
+            .directory .bd .lists li:hover .lists1 { display:block; }
+     .directory .ft { #margin-top:-10px; font-size:0; height:14px; background:url(/images/album/bg/side_ft1.png) no-repeat; }
+
+.hot_tags { margin-top:20px; }
+    .hot_tags .hd { height:14px; background:url(/images/album/bg/side_hd1.png) no-repeat; text-align:center; position:relative; z-index:110; }
+    .hot_tags .hd .title { width:100px; height:50px; position:absolute; top:1px; left:50%; margin-left:-50px; z-index:100; }
+        .hot_tags .hd .title h2 { color:#83C74E; font-size:14px; border-top:4px solid #83C74E; }
+    .hot_tags .bd { background:url(/images/album/bg/side_bd1.png) repeat-y; z-index:80; }
+        .hot_tags .bd .tags_lists { overflow:hidden; padding:40px 15px 0px; }
+            .hot_tags .bd .tags_lists li { display:inline; margin:0 4px; }
+            .hot_tags .bd .tags_lists li.hot { font-weight:bold; }
+    .hot_tags .ft { font-size:0; height:14px; background:url(/images/album/bg/side_ft1.png) no-repeat; }
+
+.ad img {margin-top:10px;}
+
+#main { width:685px; float:right; }
+
+.title_lists { }
+    .title_lists .title { border-bottom:4px solid #83C74C; }
+        .title_lists h2 { display:inline; font-size:14px; color:#83C74C; }
+            .title_lists h2 .icon { display:inline-block; margin-right:5px; width:16px; height:16px; vertical-align:middle; background:url(/images/album/img/icon.png) -98px 0 no-repeat; }
+        .title_lists sup { *margin-top:-25px; color:#83C74C; line-height:25px; float:right; }
+    .title_lists .heading { height:105px; overflow:hidden; margin-top:20px; }
+        .title_lists .heading .pic { float:left; margin-right:15px; display:block; width:92px; height:92px; padding:5px; border:1px solid #E9E9E9;background:#fff;box-shadow:3px 3px 10px -4px #aaa; -moz-box-shadow:3px 3px 10px -4px #aaa; -webkit-box-shadow:3px 3px 10px -4px #aaa; -ms-filter:"progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=135,strength=4)"; *filter:progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=135,strength=4); }
+        .title_lists .heading p { height:75px; overflow:hidden; padding-top:5px; }
+    .title_lists .lists { width:330px; padding:10px 5px 0; }
+    .title_lists .no1 {float:left; }
+    .title_lists .no2 { float:right; }
+        .title_lists .lists li { list-style:disc inside; height:20px; line-height:20px; }
+            .title_lists .lists .time { *margin-top:-20px; float:right; }
+
+.ad1 img { margin-top:20px; }
+
+.popular_article { margin-top:15px; }

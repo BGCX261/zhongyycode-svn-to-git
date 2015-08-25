@@ -1,0 +1,118 @@
+/**
+ * 管理后台通用样式表
+ *
+ * @author     Akon(番茄红了) <aultoale@gmail.com>
+ * @copyright  Copyright (c) 2008 (http://www.rsbuy.com)
+ */
+@charset "utf-8";
+
+body {color:#333; font:12px Tahoma, Verdana, Arial; background:#FFF url(/images/admin/bg_main_top.gif) repeat-x; text-align:left; margin:15px; line-height:160%;}
+img {border:none;}
+form, table, input, select, textarea {margin:0; font:12px Tahoma, Verdana, Arial; color:#333;}
+h1, h2, h3, h4, h5, h6 {margin:0; padding:0;}
+label {display:block;margin:2px 0;}
+small {font-size:11px }
+
+fieldset {border:1px solid #DEEFFA; padding:5px 10px; -padding:10px 10px 5px 10px; margin:5px 0 10px 0; display:block}
+fieldset legend {font-size:12px; font-weight:bold; color:#F60; padding:0 5px;}
+
+/* input text*/
+input.text {padding:3px; border:1px solid #82BCD3; background:#FFF;}
+input.texthover {border:1px solid #FCA;}
+
+/* input button/submit */
+input.button {height:21px; +line-height:20px !important; +line-height:16px; padding:0 5px; +padding:0 3px; border:1px solid #FFF; +border:1px solid #9EB0BC; margin-left:1px; outline: 1px solid #9EB0BC; background:#FFF url(/images/btn_bg.jpg) scroll left center repeat-x;}
+input.buttonhover {}
+
+/* textarea */
+textarea{padding:2px 1px; border:1px solid #82BCD3; background:#FFF; color:#666; overflow:auto;}
+textarea.textareahover {border:1px solid #FCA;}
+
+select {border:1px solid #82BCD3;}
+
+/* @only firefox/opera/ie7+ */
+input.text[disabled] {border-color:#AAA; background:#F5F5F5; color:#666;}
+input.button[disabled] { border:1px solid #999; background:#EEE; color:#AAA;}
+textarea[disabled] {border-color:#AAA; background:#F5F5F5; color:#666;}
+
+/* 高亮显示 */
+.highlight {background:#FF0;color:#E00}
+
+/* 超链接 */
+a:link, a:visited {color:#06A; text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+/* 图片 button */
+a.btn {background:url(/images/bg_btn.jpg) no-repeat; width:78px; height:25px; line-height:25px; color:#FFF; display:block; text-align:center; overflow:hidden;}
+a.btn:hover {color:#FFF; text-decoration:underline;}
+
+/* 清除浮动 */
+.clearfloat {height:0px; overflow:hidden; clear:both;}
+
+/* 分页样式 */
+.pagination {text-align:right; line-height:30px; height:30px; padding-right:5px;}
+.pagination .pageList {}
+    /* 当前页 */
+    .pageList .pageCurrentItem {font-weight:bold; color:#000000;}
+    /* 普通链接样式 */
+    .pageList a:link, .pageList a:visited {background:#FFF; color:#333; border:1px solid #B5CFD9; padding:1px 5px;}
+    .pageList a:hover {background:#09C; color:#FFF;}
+    /* 页码样式 */
+    .pageList a.pageItem:link, .pageList a.pageItem:visited {}
+    .pageList a.pageItem:hover {}
+    /* 前往首页样式 */
+    .pageList a.pageFirst:link, .pageList a.pageFirst:visited {}
+    .pageList a.pageFirst:hover {}
+    /* 前往尾页样式 */
+    .pageList a.pageLast:link, .pageList a.pageLast:visited {}
+    .pageList a.pageLast:hover {}
+    /* 前往上页样式 */
+    .pageList a.pagePrev:link, .pageList a.pagePrev:visited {}
+    .pageList a.pagePrev:hover {}
+    /* 前往下页样式 */
+    .pageList a.pageNext:link, .pageList a.pageNext:visited {}
+    .pageList a.pageNext:hover {}
+.pagination .pageInfo {color:#333;}
+.pagination .pageInfo .infoNumber {color:red; margin:0 3px; font-style:italic;}
+
+/* 顶部 */
+#header {}
+#header .layout {border-bottom:4px solid #DEEFFA;}
+
+/* 主体 */
+#tbody {}
+.tablegrid {}
+.tablegrid tr th {color:#333; font-weight:bold; border-bottom:1px dashed #DEEFFA; padding:10px 0;}
+.tablegrid tr td {color:#555; border-bottom:1px dashed #DEEFFA; padding:8px 0;}
+
+
+/* 搜索框 */
+.searchbox {border-bottom:4px solid #DEEFFA; background:url(/images/admin/bg_layout.gif) 0px -60px repeat-x; padding:5px 8px;}
+
+/* 数据编辑 & 录入 */
+.dataedit {margin-top:5px;}
+.dataedit th {color:#333; border-bottom:1px dashed #DEEFFA; padding:3px 0;}
+.dataedit td {color:#555; border-bottom:1px dashed #DEEFFA; padding:3px 0;}
+
+/* 底部 */
+#footer {margin-top:10px; border-bottom:4px solid #DEEFFA; clear:both;}
+
+.quick_edit {border:1px solid #FFF; padding:3px;}
+.quick_edit:hover {border-color:#CDE;}
+
+/* 消息 */
+#msg {width:80%; margin:0 auto;}
+#msg table {width:100%; margin:5px auto; padding:5px; border:1px dashed #E0E0E0;}
+    #msg table #check {width:30px;}
+    #msg table #msg_pic {width:30px;}
+    #msg table #avatar {width:70px;}
+    #msg table #author {width:190px;}
+    #msg table #del {width:15px;}
+#msg #title {text-align:center;}
+#msg #members {text-align:center;}
+#msg #content {margin:auto 10px;}
+#msg #reply {margin:10px auto}
+#msg .border {border-right:1px solid #DEEFFA;}
+
+/* 警告信息 */
+.warning {background:url(/images/warning.gif) no-repeat; color:#F00; line-height:30px; height:30px; padding-left:35px; margin-left:10px; display:block;}

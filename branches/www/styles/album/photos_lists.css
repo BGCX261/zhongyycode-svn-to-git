@@ -1,0 +1,17 @@
+#side { width:320px; float:left; }
+				
+.book_topics { margin-top:30px; }
+	.book_topics .hd { border-bottom:1px solid #badd9d; }
+		.book_topics .hd h2 { color:#83C74E; font-size:14px; padding:0 5px 3px 0; display:inline-block; border-bottom:3px solid #badd9d; }
+			.book_topics .hd h2 .icon { width:14px; height:14px; display:inline-block; margin-right:5px; background:url(../images/img/icon.png) -56px 0 no-repeat; }
+			.book_topics .hd h2 .icon1 { width:13px; height:14px; display:inline-block; margin-right:5px; background:url(../images/img/icon.png) -15px 0 no-repeat; }
+		.book_topics .lists { margin:5px; overflow:hidden; }
+			.book_topics .lists li { height:28px; line-height:28px; }
+				.book_topics .lists li a:hover { text-decoration:none; }
+					.book_topics .lists li .icon { width:11px; height:10px; margin-top:9px; display:block; background:url(../images/img/icon.png) -130px 0 no-repeat; margin-right:5px; float:left; }
+					.book_topics .lists li .title { float:left; }
+					.book_topics .lists li .stat { float:right; }
+
+#content { width:595px; float:right; }
+			.photo_lists .hd h2 .icon { margin-right:5px; display:inline-block; width:15px; height:14px; background:url(../images/img/icon.png) -28px 0 no-repeat; }
+		.photo_lists .hd h3 { float:left; padding-left:20px; }
